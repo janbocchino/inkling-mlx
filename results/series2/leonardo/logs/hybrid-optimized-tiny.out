@@ -1,0 +1,20 @@
+{"event": "reference_module_ready", "unix_time": 1795301015.6420536, "module": "model.language_model.layers.3.mlp.experts.down_proj", "index": 1, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.682046, "module": "model.language_model.layers.3.mlp.experts.gate_up_proj", "index": 2, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.7221677, "module": "model.language_model.layers.2.mlp.experts.down_proj", "index": 3, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.7620018, "module": "model.language_model.layers.2.mlp.experts.gate_up_proj", "index": 4, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.8015223, "module": "model.language_model.layers.1.mlp.experts.down_proj", "index": 5, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.8406198, "module": "model.language_model.layers.1.mlp.experts.gate_up_proj", "index": 6, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.8805351, "module": "model.language_model.layers.0.mlp.experts.down_proj", "index": 7, "total": 8}
+{"event": "reference_module_ready", "unix_time": 1795301015.9203548, "module": "model.language_model.layers.0.mlp.experts.gate_up_proj", "index": 8, "total": 8}
+{"event": "cuda_matrices_registered", "unix_time": 1795301016.1600575, "count": 32, "allocated_bytes": 328192}
+{"event": "cuda_matrices_registered", "unix_time": 1795301016.1747706, "count": 64, "allocated_bytes": 553472}
+{"event": "cuda_matrix_backend_attached", "unix_time": 1795301016.179321, "modules": 72}
+Traceback (most recent call last):
+  File "/work/series2-kit/test_rpc.py", line 47, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/work/series2-kit/test_rpc.py", line 36, in main
+    if not mx.allclose(y,outputs[i],atol=2e-3,rtol=2e-3).item():raise ValueError('Hybrid full forward mismatch')
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Hybrid full forward mismatch
+srun: error: lrdn1883: task 0: Exited with exit code 1

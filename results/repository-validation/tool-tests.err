@@ -1,0 +1,13 @@
+test_reasoning_and_unclosed_final_are_not_complete (test_tools.AnswerParsingTests) ... ok
+test_committed_evidence_reproduces_historical_paired_results (test_tools.ComparisonTests) ... ok
+test_duplicate_and_mismatched_definition_rejected (test_tools.ComparisonTests) ... ok
+test_match_ids_not_positions_and_keep_partial_incomplete (test_tools.ComparisonTests) ... ok
+test_sensitivity_is_separate_and_labeled (test_tools.ComparisonTests) ... ok
+test_published_frozen_code_hashes (test_tools.VerificationTests) ... ok
+test_truncated_tensor_rejected (test_tools.VerificationTests) ... ok
+test_valid_then_corrupted_tensor (test_tools.VerificationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.248s
+
+OK

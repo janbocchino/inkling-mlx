@@ -1,0 +1,20 @@
+[
+  {
+    "unix_time": 1795335653.876006,
+    "event": "resume_interrupted_rsync",
+    "previous_pid": 57857,
+    "previous_error": "CalledProcessError(255, ['rsync', '-az', '--partial', '-e', 'ssh -S /EXPERIMENT_WORKSPACE/work/s -o BatchMode=yes -o ConnectTimeout=15', 'leonardo:/PROJECT/experiments/series2-20261121-231237/finalists/W128-S4/', '/EXPERIMENT_WORKSPACE/outputs/series2-results/series2-20261121-231237/models/W128-S4/'])",
+    "numeric_code_and_data_unchanged": true,
+    "mac_validation_had_not_started": true
+  },
+  {
+    "unix_time": 1795338761.090809,
+    "event": "resume_Metal_timeouts",
+    "paused_watcher": 69182,
+    "stopped_owned_context_children": [
+      74460
+    ],
+    "scoring_and_data_unchanged": true,
+    "mac_stage_deadline_unix": 1795350712.0980706
+  }
+]

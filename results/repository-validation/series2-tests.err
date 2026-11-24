@@ -1,0 +1,11 @@
+test_clipping_never_worsens_its_own_objective (__main__.SeriesTests.test_clipping_never_worsens_its_own_objective) ... ok
+test_mixed_precision_export_and_interrupted_resume (__main__.SeriesTests.test_mixed_precision_export_and_interrupted_resume) ... ok
+test_nvfp4_global_scaling_and_no_clipping_keep_full_precision (__main__.SeriesTests.test_nvfp4_global_scaling_and_no_clipping_keep_full_precision) ... ok
+test_reference_text_image_and_loop_statistics (__main__.SeriesTests.test_reference_text_image_and_loop_statistics) ... ok
+test_single_letter_answer_boundary_excludes_template_footer (__main__.SeriesTests.test_single_letter_answer_boundary_excludes_template_footer) ... ok
+test_unsorted_topk_statistics_duplicate_inputs_correctly (__main__.SeriesTests.test_unsorted_topk_statistics_duplicate_inputs_correctly) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.691s
+
+OK

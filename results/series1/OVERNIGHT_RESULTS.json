@@ -1,0 +1,66 @@
+{
+  "completed_date": "2026-11-21",
+  "timezone": "Europe/Vienna",
+  "status": "Local model downloaded verified and tested; report and launcher ready",
+  "model_directory": "/EXPERIMENT_WORKSPACE/outputs/Inkling-2-Mini-expert-2bit-g64",
+  "model_weight_bytes": 11019161398,
+  "verified_local_tensors": 1567,
+  "short_text_and_image_probes": "4 correct simple probes",
+  "context_probes": "Correct supplied-identifier retrieval at 503 2048 and 4088 prompt tokens",
+  "caution": "Simple smoke tests are not accuracy benchmarks. System swap increased significantly on this busy 16 GiB Mac.",
+  "left_running": {
+    "model": false,
+    "local_server": false
+  },
+  "files": {
+    "Inkling_experiment_report.pdf": {
+      "bytes": 204264,
+      "sha256": "36bb9991873b8a3f0ea6639dd9afe050de6797c16e051e64f93ea684716108f7"
+    },
+    "Inkling_experiment_report.docx": {
+      "bytes": 47901,
+      "sha256": "4eea999c22b8dee512406e4e655c73cadcb441d1c0eb0bcd91f2d911d163d33d"
+    },
+    "DOWNLOAD_VERIFICATION.json": {
+      "bytes": 541,
+      "sha256": "1d7a5cf6ef03c52d5c1c9eb30ef382b3b658e63b437984dfa11de8ec2053e8de"
+    },
+    "MAC_TEST_SUMMARY.json": {
+      "bytes": 2087,
+      "sha256": "0cb1bdead102fe8dd0d016a9dda4a73077c9e20616755aa30f289d0c797ea293"
+    },
+    "MAC_INFERENCE_RESULTS.json": {
+      "bytes": 5864,
+      "sha256": "20937b8173615eb21bcb3ffb01e48d1e9a07eb5da937b66db5b50e657cb8bdc8"
+    },
+    "MAC_CONTEXT_RESULTS.json": {
+      "bytes": 40083,
+      "sha256": "4477ffc306d9e6f25245814efd4831f00dfcc60b83d73e2d685156ca484176a4"
+    },
+    "MAC_TUNING_RESULTS.json": {
+      "bytes": 50885,
+      "sha256": "5ab01d0e48fb44ebe52dd926cd8b331a7ee7d862b4d405fe3a5f226bff6bb3d4"
+    },
+    "MAC_LAUNCHER_CHECK.json": {
+      "bytes": 946,
+      "sha256": "f412a3eb79e88ef28775ffdad44178033cde5d6a20f62369e625540b85f94e1a"
+    },
+    "run_inkling.command": {
+      "bytes": 466,
+      "sha256": "632ead72bb836d98c4ba41a4c52ded09faae7b70e13f9683e82151cd6f989fa8"
+    },
+    "ask_inkling.py": {
+      "bytes": 5075,
+      "sha256": "98dd3dd9ae9745ee70bec8e7fb169e05f74459ad668d9c5bb80bd8a23d6dfdbb"
+    },
+    "HOW_TO_RUN.txt": {
+      "bytes": 2803,
+      "sha256": "808b0a3958ab3c981824dd2e44b5ff963da95df506765b95269d2769319b96df"
+    }
+  },
+  "report_visual_qa": {
+    "pages": 8,
+    "all_pages_inspected": true,
+    "docx_and_pdf_match_same_render": true
+  }
+}

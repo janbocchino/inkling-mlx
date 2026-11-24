@@ -1,0 +1,18 @@
+[transformers] You are using a model of type `inkling2_loop` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+Traceback (most recent call last):
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 111, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 82, in main
+    for _ in stream_generate(model,tokenizer,inputs[0],max_tokens=8,sampler=make_sampler(temp=0),prefill_step_size=64):pass
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 744, in stream_generate
+    for n, (token, logprobs, from_draft) in enumerate(token_generator):
+                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 732, in <genexpr>
+    (token, logprobs, False) for token, logprobs in token_generator
+                                                    ^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 460, in generate_step
+    mx.eval([c.state for c in prompt_cache])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).

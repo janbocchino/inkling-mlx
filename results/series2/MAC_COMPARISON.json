@@ -1,0 +1,316 @@
+{
+  "baseline": "R64",
+  "comparisons": [
+    {
+      "candidate": "W128-E4",
+      "paired_cases": 90,
+      "paired_accuracy_difference": -0.022222222222222223,
+      "bootstrap_interval_95": [
+        -0.05555555555555555,
+        0.0
+      ],
+      "categories": {
+        "arithmetic": {
+          "cases": 11,
+          "paired_difference": 0.0
+        },
+        "chart": {
+          "cases": 11,
+          "paired_difference": -0.09090909090909091
+        },
+        "code": {
+          "cases": 8,
+          "paired_difference": 0.0
+        },
+        "extraction": {
+          "cases": 12,
+          "paired_difference": 0.0
+        },
+        "instruction": {
+          "cases": 8,
+          "paired_difference": 0.0
+        },
+        "logic": {
+          "cases": 10,
+          "paired_difference": 0.0
+        },
+        "ocr_generated": {
+          "cases": 5,
+          "paired_difference": 0.0
+        },
+        "scene_text": {
+          "cases": 10,
+          "paired_difference": -0.1
+        },
+        "spatial": {
+          "cases": 4,
+          "paired_difference": 0.0
+        },
+        "structured": {
+          "cases": 11,
+          "paired_difference": 0.0
+        }
+      },
+      "all_180_cases_completed": false,
+      "passes_engineering_quality_filter": false
+    },
+    {
+      "candidate": "W128-S4",
+      "paired_cases": 90,
+      "paired_accuracy_difference": -0.011111111111111112,
+      "bootstrap_interval_95": [
+        -0.03333333333333333,
+        0.0
+      ],
+      "categories": {
+        "arithmetic": {
+          "cases": 11,
+          "paired_difference": 0.0
+        },
+        "chart": {
+          "cases": 11,
+          "paired_difference": -0.09090909090909091
+        },
+        "code": {
+          "cases": 8,
+          "paired_difference": 0.0
+        },
+        "extraction": {
+          "cases": 12,
+          "paired_difference": 0.0
+        },
+        "instruction": {
+          "cases": 8,
+          "paired_difference": 0.0
+        },
+        "logic": {
+          "cases": 10,
+          "paired_difference": 0.0
+        },
+        "ocr_generated": {
+          "cases": 5,
+          "paired_difference": 0.0
+        },
+        "scene_text": {
+          "cases": 10,
+          "paired_difference": 0.0
+        },
+        "spatial": {
+          "cases": 4,
+          "paired_difference": 0.0
+        },
+        "structured": {
+          "cases": 11,
+          "paired_difference": 0.0
+        }
+      },
+      "all_180_cases_completed": false,
+      "passes_engineering_quality_filter": false
+    }
+  ],
+  "reports": {
+    "R64": {
+      "all": {
+        "cases": 90,
+        "score": 0.7777777777777778,
+        "missing_final_answers": 18
+      },
+      "text": {
+        "cases": 60,
+        "score": 0.8,
+        "missing_final_answers": 12
+      },
+      "image": {
+        "cases": 30,
+        "score": 0.7333333333333333,
+        "missing_final_answers": 6
+      },
+      "arithmetic": {
+        "cases": 11,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "chart": {
+        "cases": 11,
+        "score": 0.6363636363636364,
+        "missing_final_answers": 3
+      },
+      "code": {
+        "cases": 8,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "extraction": {
+        "cases": 12,
+        "score": 0.0,
+        "missing_final_answers": 12
+      },
+      "instruction": {
+        "cases": 8,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "logic": {
+        "cases": 10,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "ocr_generated": {
+        "cases": 5,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "scene_text": {
+        "cases": 10,
+        "score": 0.6,
+        "missing_final_answers": 3
+      },
+      "spatial": {
+        "cases": 4,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "structured": {
+        "cases": 11,
+        "score": 1.0,
+        "missing_final_answers": 0
+      }
+    },
+    "W128-E4": {
+      "all": {
+        "cases": 180,
+        "score": 0.7555555555555555,
+        "missing_final_answers": 40
+      },
+      "text": {
+        "cases": 120,
+        "score": 0.825,
+        "missing_final_answers": 20
+      },
+      "image": {
+        "cases": 60,
+        "score": 0.6166666666666667,
+        "missing_final_answers": 20
+      },
+      "arithmetic": {
+        "cases": 20,
+        "score": 0.95,
+        "missing_final_answers": 0
+      },
+      "chart": {
+        "cases": 20,
+        "score": 0.5,
+        "missing_final_answers": 9
+      },
+      "code": {
+        "cases": 20,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "extraction": {
+        "cases": 20,
+        "score": 0.0,
+        "missing_final_answers": 20
+      },
+      "instruction": {
+        "cases": 20,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "logic": {
+        "cases": 20,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "ocr_generated": {
+        "cases": 10,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "scene_text": {
+        "cases": 20,
+        "score": 0.35,
+        "missing_final_answers": 11
+      },
+      "spatial": {
+        "cases": 10,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "structured": {
+        "cases": 20,
+        "score": 1.0,
+        "missing_final_answers": 0
+      }
+    },
+    "W128-S4": {
+      "all": {
+        "cases": 117,
+        "score": 0.7435897435897436,
+        "missing_final_answers": 27
+      },
+      "text": {
+        "cases": 78,
+        "score": 0.7948717948717948,
+        "missing_final_answers": 15
+      },
+      "image": {
+        "cases": 39,
+        "score": 0.6410256410256411,
+        "missing_final_answers": 12
+      },
+      "arithmetic": {
+        "cases": 14,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "chart": {
+        "cases": 12,
+        "score": 0.5,
+        "missing_final_answers": 5
+      },
+      "code": {
+        "cases": 13,
+        "score": 0.9230769230769231,
+        "missing_final_answers": 0
+      },
+      "extraction": {
+        "cases": 15,
+        "score": 0.0,
+        "missing_final_answers": 15
+      },
+      "instruction": {
+        "cases": 10,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "logic": {
+        "cases": 12,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "ocr_generated": {
+        "cases": 6,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "scene_text": {
+        "cases": 15,
+        "score": 0.4666666666666667,
+        "missing_final_answers": 7
+      },
+      "spatial": {
+        "cases": 6,
+        "score": 1.0,
+        "missing_final_answers": 0
+      },
+      "structured": {
+        "cases": 14,
+        "score": 1.0,
+        "missing_final_answers": 0
+      }
+    }
+  },
+  "scope": "Frozen custom diagnostic subset; uncertainty intervals do not prove equivalence",
+  "memory_and_context_reports_are_separate": true
+}

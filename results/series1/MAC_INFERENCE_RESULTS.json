@@ -1,0 +1,105 @@
+{
+  "state": "complete",
+  "hardware": {
+    "device_name": "Apple M5",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g17g",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "system_before": {
+    "vm.swapusage": "total = 15360.00M  used = 13874.81M  free = 1485.19M  (encrypted)",
+    "kern.memorystatus_vm_pressure_level": "1"
+  },
+  "precision_flag": "0",
+  "sampling": "greedy",
+  "reasoning_effort": "none",
+  "cases": [
+    {
+      "case": "arithmetic",
+      "prompt": "What is 17 multiplied by 23? Reply with only the number.",
+      "expected": "391",
+      "output": "<|message_model|><|content_thinking|>The user wants only the number. Compute 17*23. 17*20=340, 17*3=51, total 391. Need final only number. Ensure no extra text.<|end_message|><|message_model|><|content_text|>391<|end_message|>",
+      "elapsed_seconds": 36.35596795799211,
+      "first_token_seconds": 34.413717249874026,
+      "peak_mlx_bytes": 11159254848,
+      "process_peak_rss_bytes": 757710848,
+      "system_after": {
+        "vm.swapusage": "total = 21504.00M  used = 20020.81M  free = 1483.19M  (encrypted)",
+        "kern.memorystatus_vm_pressure_level": "2"
+      },
+      "prompt_tokens": 28,
+      "generated_tokens": 49,
+      "prompt_tokens_per_second": 0.8844870844780723,
+      "generation_tokens_per_second": 25.28147080507313
+    },
+    {
+      "case": "extraction",
+      "prompt": "From this sentence extract only the order number: \"Order AX-728 was shipped on Tuesday.\" Reply with the order number only.",
+      "expected": "AX-728",
+      "output": "<|message_model|><|content_thinking|>The user wants only the order number from the sentence. Sentence: \"Order AX-728 was shipped on Tuesday.\" Order number is AX-728. Need reply with order number only. No extra words. Ensure exact. Final only AX-728.<|end_message|><|message_model|><|content_text|>AX-728<|end_message|>",
+      "elapsed_seconds": 3.1991166253574193,
+      "first_token_seconds": 1.0210554590448737,
+      "peak_mlx_bytes": 11226559448,
+      "process_peak_rss_bytes": 757710848,
+      "system_after": {
+        "vm.swapusage": "total = 21504.00M  used = 19965.94M  free = 1538.06M  (encrypted)",
+        "kern.memorystatus_vm_pressure_level": "2"
+      },
+      "prompt_tokens": 41,
+      "generated_tokens": 63,
+      "prompt_tokens_per_second": 40.25198890478639,
+      "generation_tokens_per_second": 28.9917308685954
+    },
+    {
+      "case": "code",
+      "prompt": "Write a Python function named larger(a, b) that returns the larger value. Give only the function.",
+      "expected": "manual review",
+      "output": "<|message_model|><|content_thinking|>The user asks to write a Python function named larger(a, b) that returns the larger value. Give only the function.\n\nThis is a simple coding task. Need to provide only the function, no extra explanation. Need to consider edge cases? \"larger value\" likely returns max(a,b). Could implement with if. Need only function.\n\nNeed ensure exact function name larger(a,b). Return larger value. Could use max(a,b). But maybe they want function definition only. Provide:\n\ndef larger(a, b):\n    return max(a, b)\n\nOnly the function. No extra text.<|end_message|><|message_model|><|content_text|>def larger(a, b):\n    return max(a, b)<|end_message|>",
+      "elapsed_seconds": 6.339795417152345,
+      "first_token_seconds": 0.6106672920286655,
+      "peak_mlx_bytes": 11199347616,
+      "process_peak_rss_bytes": 757710848,
+      "system_after": {
+        "vm.swapusage": "total = 21504.00M  used = 19964.81M  free = 1539.19M  (encrypted)",
+        "kern.memorystatus_vm_pressure_level": "2"
+      },
+      "prompt_tokens": 35,
+      "generated_tokens": 160,
+      "prompt_tokens_per_second": 57.45367373825155,
+      "generation_tokens_per_second": 27.960700303700484
+    },
+    {
+      "case": "vision",
+      "prompt": "Describe the two shapes and their colors and positions in this image in one sentence.",
+      "expected": "red square on the left and blue circle on the right",
+      "output": "<|message_model|><|content_thinking|>The user wants a one-sentence description of two shapes and their colors and positions in the image. Need answer concise. Image shows red square on left, blue circle on right, white background. Need describe shapes and colors and positions. One sentence. Ensure no extra. Could say: \"A red square is on the left and a blue circle is on the right.\" That's one sentence. Need mention positions. Good.<|end_message|><|message_model|><|content_text|>A red square is on the left and a blue circle is on the right.<|end_message|>",
+      "elapsed_seconds": 27.644439375028014,
+      "first_token_seconds": 23.223289125133306,
+      "peak_mlx_bytes": 11302298776,
+      "process_peak_rss_bytes": 757710848,
+      "system_after": {
+        "vm.swapusage": "total = 21504.00M  used = 20001.75M  free = 1502.25M  (encrypted)",
+        "kern.memorystatus_vm_pressure_level": "2"
+      },
+      "prompt_tokens": 57,
+      "generated_tokens": 111,
+      "prompt_tokens_per_second": 2.9951996538420906,
+      "generation_tokens_per_second": 25.255738051041522
+    }
+  ],
+  "scope": "Smoke tests, not a standard benchmark or a native-source quality comparison",
+  "mlx_memory_limit_bytes": 12458853335,
+  "load_seconds": 13.901670999825,
+  "loaded_active_bytes": 11022137364,
+  "test_image": "/EXPERIMENT_WORKSPACE/outputs/vision_test.png",
+  "current_case": "vision",
+  "system_after": {
+    "vm.swapusage": "total = 21504.00M  used = 19975.31M  free = 1528.69M  (encrypted)",
+    "kern.memorystatus_vm_pressure_level": "2"
+  },
+  "process_exit_code": 0,
+  "watchdog_elapsed_seconds": 93.36834387527779
+}

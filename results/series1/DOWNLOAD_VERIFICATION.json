@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "verified_tensor_count": 1567,
+  "files": [
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "bytes": 5319669181
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "bytes": 5207385163
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "bytes": 492107054
+    }
+  ],
+  "weights_bytes": 11019161398,
+  "elapsed_seconds": 5.265180374961346,
+  "method": "Streamed SHA256 of each local safetensors tensor compared with the post-conversion tensor signatures on Leonardo"
+}

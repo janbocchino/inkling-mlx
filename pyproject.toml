@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inkling-mlx-experiments"
+version = "0.1.0"
+description = "Reproducible records and tools for Inkling 2 Mini MLX quantization experiments"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+inkling-mlx = "inkling_mlx.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

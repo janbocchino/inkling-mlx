@@ -1,0 +1,5 @@
+# Python 3.11 inside the Bookworm container; distinct from host CUDA environment.
+mlx[cpu]==0.32.4
+mlx-lm @ git+https://github.com/jundot/mlx-lm.git@0c4c99192230f1943dd468d297f0b8a64ae7b7c2
+numpy==2.4.6
+transformers==5.23.0

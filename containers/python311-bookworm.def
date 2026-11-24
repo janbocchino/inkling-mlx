@@ -1,0 +1,11 @@
+Bootstrap: docker
+From: python:3.11-bookworm
+
+%labels
+    Description "Reconstruction recipe; historical SIF digest was not recorded"
+
+%post
+    python -m pip install --upgrade pip
+
+%runscript
+    exec python "$@"

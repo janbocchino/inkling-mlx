@@ -1,0 +1,5 @@
+# Dataset preparation is a new freeze, not guaranteed byte-identical recreation.
+fsspec==2026.9.0
+pyarrow
+pillow==13.0.0
+numpy==2.5.5

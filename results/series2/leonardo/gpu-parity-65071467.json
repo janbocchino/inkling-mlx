@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "fixtures": 192,
+  "max_abs_error": 0.0,
+  "gpu": "NVIDIA A100-SXM-64GB",
+  "torch": "2.2.0a0+git6c8c5ad",
+  "cuda": "12.1"
+}

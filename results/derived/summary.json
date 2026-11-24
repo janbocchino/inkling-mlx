@@ -1,0 +1,244 @@
+{
+  "scope": "Custom diagnostics; incomplete tests and uncontrolled memory pressure limit conclusions.",
+  "measurements": {
+    "R64": {
+      "completed_cases": 90,
+      "status": "incomplete",
+      "peak_mlx_gib": 11.029433272778988,
+      "median_generation_tps": 26.69171382214473,
+      "warning_pressure_cases": 90
+    },
+    "W128-E4": {
+      "completed_cases": 180,
+      "status": "complete",
+      "peak_mlx_gib": 9.24673131480813,
+      "median_generation_tps": 22.209154665224,
+      "warning_pressure_cases": 179
+    },
+    "W128-S4": {
+      "completed_cases": 117,
+      "status": "incomplete",
+      "peak_mlx_gib": 10.15267612785101,
+      "median_generation_tps": 18.63312680309976,
+      "warning_pressure_cases": 116
+    }
+  },
+  "paired": [
+    {
+      "candidate": "W128-E4",
+      "paired_cases": 90,
+      "difference": -0.022222222222222223,
+      "bootstrap_interval_95": [
+        -0.05555555555555555,
+        0.0
+      ],
+      "all_180_cases_completed": false,
+      "excluded_category": null,
+      "post_hoc": false
+    },
+    {
+      "candidate": "W128-S4",
+      "paired_cases": 90,
+      "difference": -0.011111111111111112,
+      "bootstrap_interval_95": [
+        -0.03333333333333333,
+        0.0
+      ],
+      "all_180_cases_completed": false,
+      "excluded_category": null,
+      "post_hoc": false
+    }
+  ],
+  "post_hoc_without_extraction": [
+    {
+      "candidate": "W128-E4",
+      "paired_cases": 78,
+      "difference": -0.02564102564102564,
+      "bootstrap_interval_95": [
+        -0.0641025641025641,
+        0.0
+      ],
+      "all_180_cases_completed": false,
+      "excluded_category": "extraction",
+      "post_hoc": true
+    },
+    {
+      "candidate": "W128-S4",
+      "paired_cases": 78,
+      "difference": -0.01282051282051282,
+      "bootstrap_interval_95": [
+        -0.038461538461538464,
+        0.0
+      ],
+      "all_180_cases_completed": false,
+      "excluded_category": "extraction",
+      "post_hoc": true
+    }
+  ],
+  "development": [
+    {
+      "candidate": "C128",
+      "weight_bytes": 9568604407,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1626421156383695
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 1.0205810864766438
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.015008290608724
+        }
+      }
+    },
+    {
+      "candidate": "R128",
+      "weight_bytes": 9568604407,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.4585500535510836
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 1.312258497873942
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.3362993876139324
+        }
+      }
+    },
+    {
+      "candidate": "R64",
+      "weight_bytes": 11019161398,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1450145812261672
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9196438789367676
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.497238794962565
+        }
+      }
+    },
+    {
+      "candidate": "W128",
+      "weight_bytes": 9568604407,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1036493937174479
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9812234454684787
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 1.838205083211263
+        }
+      }
+    },
+    {
+      "candidate": "W128-A8",
+      "weight_bytes": 9891606885,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.0964661461966378
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.974269856346978
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 1.8296438852945964
+        }
+      }
+    },
+    {
+      "candidate": "W128-E4",
+      "weight_bytes": 9105445257,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1162705739339194
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9550252066718208
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.0837427775065103
+        }
+      }
+    },
+    {
+      "candidate": "W128-S4",
+      "weight_bytes": 10078212345,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 0.7462388719831194
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.5363252215915256
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.005720774332682
+        }
+      }
+    }
+  ],
+  "source_reference_on_same_development_subset": {
+    "all": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "nll_per_token": 0.6590592656816755
+    },
+    "text": {
+      "cases": 20,
+      "answer_tokens": 90,
+      "nll_per_token": 0.278836276796129
+    },
+    "image": {
+      "cases": 10,
+      "answer_tokens": 15,
+      "nll_per_token": 2.940397198994954
+    }
+  }
+}

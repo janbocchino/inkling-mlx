@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "run_id": "series2-20261121-231237",
+  "controller_job": "65072300",
+  "start_unix": 1795302987.925822,
+  "deadline_unix": 1795344483.0,
+  "archive": "/PROJECT/experiments/series2-20261121-231237",
+  "phase": "saving_finalists",
+  "updated_unix": 1795331765.9007132,
+  "worker_jobs": [
+    "65081991",
+    "65082012"
+  ],
+  "failures": [],
+  "finished_unix": 1795331765.9007075,
+  "finalists": [
+    "W128-E4",
+    "W128-S4",
+    "W128"
+  ]
+}

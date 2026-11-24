@@ -1,0 +1,46 @@
+{
+  "state": "generating",
+  "hardware": {
+    "device_name": "Apple M5",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g17g",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "system_before": {
+    "vm.swapusage": "total = 17408.00M  used = 16510.50M  free = 897.50M  (encrypted)",
+    "kern.memorystatus_vm_pressure_level": "1"
+  },
+  "precision_flag": "0",
+  "sampling": "greedy",
+  "reasoning_effort": "none",
+  "cases": [
+    {
+      "case": "context_512",
+      "prompt": "The project access code is LANTERN-42.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\nBackground information: the office has two meeting rooms and a shared calendar.\n\nWhat is the project access code? Reply with the code only.",
+      "expected": "LANTERN-42",
+      "output": "<|message_model|><|content_thinking|>The user asks: \"The project access code is LANTERN-42. Background information: the office has two meeting rooms and a shared calendar. ... What is the project access code? Reply with the code only.\"\n\nThis is a prompt-injection-ish? They state the project access code is LANTERN-42. They ask what is the project access code, reply with code only. The code is given in the prompt. We should reply with the code only. This is not a secret? It's provided by user. We can answer LANTERN-42. Need ensure no extra. The",
+      "elapsed_seconds": 169.21496833395213,
+      "first_token_seconds": 97.67297820933163,
+      "peak_mlx_bytes": 11408116524,
+      "process_peak_rss_bytes": 4302061568,
+      "system_after": {
+        "vm.swapusage": "total = 18432.00M  used = 16882.69M  free = 1549.31M  (encrypted)",
+        "kern.memorystatus_vm_pressure_level": "2"
+      },
+      "prompt_tokens": 503,
+      "generated_tokens": 128,
+      "prompt_tokens_per_second": 5.338637077666261,
+      "generation_tokens_per_second": 1.7907269325274826
+    }
+  ],
+  "prefill_step_tokens": 64,
+  "scope": "Smoke tests, not a standard benchmark or a native-source quality comparison",
+  "mlx_memory_limit_bytes": 12458853335,
+  "load_seconds": 4.5424423748627305,
+  "loaded_active_bytes": 11022137364,
+  "test_image": "/EXPERIMENT_WORKSPACE/outputs/series2-results/series2-20261121-231237/mac/vision_test.png",
+  "current_case": "context_2048"
+}

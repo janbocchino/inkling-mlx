@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Europe/Vienna",
+  "status": "passed",
+  "lightweight_tests": {
+    "passed": 8,
+    "command": "python3 -m unittest discover -s tests -v"
+  },
+  "historical_cpu_tests_rerun": {
+    "series1_converter": 4,
+    "series2_converter": 4,
+    "series2_regressions": 6,
+    "total": 14,
+    "backend": "MLX CPU; tiny synthetic models, no real-model inference"
+  },
+  "frozen_snapshot_files_verified": 33,
+  "python_files_syntax_checked": 33,
+  "shell_syntax_checks": "passed",
+  "markdown_relative_links": "passed",
+  "paired_reanalysis_matches_archived_results": true,
+  "all_three_local_models_reverified": {
+    "R64": {
+      "status": "passed",
+      "verified_tensors": 1567,
+      "weight_bytes": 11019161398,
+      "verification_seconds": 5.154606542084366
+    },
+    "W128-E4": {
+      "status": "passed",
+      "verified_tensors": 1567,
+      "weight_bytes": 9105445257,
+      "verification_seconds": 4.075286416336894
+    },
+    "W128-S4": {
+      "status": "passed",
+      "verified_tensors": 1567,
+      "weight_bytes": 10078212345,
+      "verification_seconds": 4.442857332993299
+    }
+  },
+  "publication_scan": "No personal login/home paths or recognizable private-key/HF/GitHub credential patterns found in publication candidates. Matrix endpoint/token files absent.",
+  "not_repeated": [
+    "full-model inference",
+    "cluster jobs",
+    "dataset calibration",
+    "CUDA parity service"
+  ],
+  "source_workspace_preserved": true,
+  "frozen_dataset_file_hashes_verified": 111,
+  "unique_complete_dataset_inputs": 372,
+  "git_staged_diff_whitespace_check": "passed",
+  "publication_files": 205,
+  "reviewed_artifact_inventory_entries": 494,
+  "package_wheel_build": "passed",
+  "installed_wheel_analysis_matches_source": true
+}

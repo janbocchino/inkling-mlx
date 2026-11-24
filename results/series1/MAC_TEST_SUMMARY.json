@@ -1,0 +1,76 @@
+{
+  "all_selected_smoke_checks_passed": true,
+  "checks": [
+    {
+      "case": "arithmetic",
+      "passed": true,
+      "answer": "391",
+      "method": "Exact final answer"
+    },
+    {
+      "case": "extraction",
+      "passed": true,
+      "answer": "AX-728",
+      "method": "Exact final answer"
+    },
+    {
+      "case": "code",
+      "passed": true,
+      "answer": "def larger(a, b):\n    return max(a, b)",
+      "method": "AST inspected restricted function; four positive negative equal and floating-point examples"
+    },
+    {
+      "case": "vision",
+      "passed": true,
+      "answer": "A red square is on the left and a blue circle is on the right.",
+      "method": "Final description checked against the known synthetic image"
+    },
+    {
+      "case": "context_1",
+      "prompt_tokens": 503,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    },
+    {
+      "case": "context_2",
+      "prompt_tokens": 2048,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    },
+    {
+      "case": "context_3",
+      "prompt_tokens": 4088,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    },
+    {
+      "case": "tuning_1",
+      "prompt_tokens": 503,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    },
+    {
+      "case": "tuning_2",
+      "prompt_tokens": 4088,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    },
+    {
+      "case": "tuning_3",
+      "prompt_tokens": 4088,
+      "passed": true,
+      "answer": "LANTERN-42",
+      "method": "Exact supplied identifier retrieval"
+    }
+  ],
+  "not_a_standard_benchmark": true,
+  "native_source_comparison_performed": false,
+  "mac": "Apple M5 16 GiB macOS 26.6.2",
+  "warning": "System swap increased; these results do not establish comfortable memory use or general accuracy",
+  "active_model_process_left_running": false
+}

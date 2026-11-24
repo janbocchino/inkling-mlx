@@ -1,0 +1,8 @@
+# Observed native Mac runtime, Python 3.13.13. Optional for result analysis.
+mlx==0.32.4
+mlx-lm @ git+https://github.com/jundot/mlx-lm.git@0c4c99192230f1943dd468d297f0b8a64ae7b7c2
+numpy==2.5.5
+transformers==5.23.0
+pillow==13.0.0
+safetensors==0.8.0
+tokenizers==0.23.3

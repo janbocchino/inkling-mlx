@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "source": "/work/source",
+  "cases": [
+    {
+      "id": "calibration-text-093",
+      "modality": "text",
+      "tokens": 49,
+      "seconds": 287.7421530727297,
+      "finite": true
+    }
+  ],
+  "load_seconds": 313.6292143333703
+}

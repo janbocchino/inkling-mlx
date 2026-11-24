@@ -1,0 +1,20 @@
+{"event": "cuda_matrices_registered", "unix_time": 1795330293.094957, "count": 32, "allocated_bytes": 621961216}
+{"event": "cuda_matrices_registered", "unix_time": 1795330295.4713805, "count": 64, "allocated_bytes": 894783488}
+{"event": "cuda_matrices_registered", "unix_time": 1795330297.8405957, "count": 96, "allocated_bytes": 1167618048}
+{"event": "cuda_matrices_registered", "unix_time": 1795330300.106059, "count": 128, "allocated_bytes": 1427857408}
+{"event": "cuda_matrices_registered", "unix_time": 1795330304.1561484, "count": 160, "allocated_bytes": 1890836480}
+{"event": "cuda_matrices_registered", "unix_time": 1795330315.8008115, "count": 192, "allocated_bytes": 3226359808}
+{"event": "cuda_matrices_registered", "unix_time": 1795330321.7455602, "count": 224, "allocated_bytes": 3911010304}
+{"event": "cuda_matrices_registered", "unix_time": 1795330324.867425, "count": 256, "allocated_bytes": 4274910208}
+{"event": "cuda_matrices_registered", "unix_time": 1795330330.7800584, "count": 288, "allocated_bytes": 4955921408}
+{"event": "cuda_matrices_registered", "unix_time": 1795330333.9016635, "count": 320, "allocated_bytes": 5318471680}
+{"event": "cuda_matrices_registered", "unix_time": 1795330339.8040862, "count": 352, "allocated_bytes": 5998610432}
+{"event": "cuda_matrices_registered", "unix_time": 1795330342.9282336, "count": 384, "allocated_bytes": 6361068544}
+{"event": "cuda_matrices_registered", "unix_time": 1795330348.8451812, "count": 416, "allocated_bytes": 7042210816}
+{"event": "cuda_matrices_registered", "unix_time": 1795330351.9657028, "count": 448, "allocated_bytes": 7404761088}
+{"event": "cuda_matrices_registered", "unix_time": 1795330360.7050238, "count": 480, "allocated_bytes": 8413295616}
+{"event": "cuda_matrix_backend_attached", "unix_time": 1795330372.2495909, "modules": 510}
+[transformers] You are using a model of type `inkling2_loop` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+{"event": "generation_case", "unix_time": 1795330479.9338598, "candidate": "W128-E4", "id": "development-text-046", "modality": "text", "expected": "392", "output": "<|message_model|><|content_thinking|>The user wants the value of sum(x * 2 for x in [46, 69, 81]).\n\nCompute: 46*2 = 92; 69*2 = 138; 81*2 = 162. Sum = 92 + 138 + 162 = 92+138=230; 230+162=392.\n\nNeed reply with only the integer. Ensure no extra text.<|end_message|><|message_model|><|content_text|>392<|end_message|>", "seconds": 106.02807880204637, "generation_tokens": 99, "generation_tps": 1.1188617644765946}
+{"event": "generation_case", "unix_time": 1795330564.370479, "candidate": "W128-E4", "id": "development-text-012", "modality": "text", "expected": "4028", "output": "<|message_model|><|content_thinking|>The user wants compute 56 times 71, then add 52. Reply with only the integer.\n\n56*71 = 56*70 + 56*1 = 3920 + 56 = 3976. Add 52 = 3976 + 52 = 4028.\n\nNeed only integer. Ensure no extra text.<|end_message|><|message_model|><|content_text|>4028<|end_message|>", "seconds": 84.40613238397054, "generation_tokens": 81, "generation_tps": 1.1125817162965628}
+{"event": "generation_case", "unix_time": 1795330680.3258514, "candidate": "W128-E4", "id": "development-chart-5", "modality": "image", "expected": "1", "output": "<|message_model|><|content_thinking|>The user is asking for the value of Slovenia in the graph. Looking at the image, Slovenia has a value of 1 GPI. The answer should be short.<|end_message|><|message_model|><|content_text|>1 GPI<|end_message|>", "seconds": 97.27574029401876, "generation_tokens": 47, "generation_tps": 1.0926003451584525}

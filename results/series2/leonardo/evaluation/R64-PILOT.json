@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "candidate": "R64-PILOT",
+  "records": [
+    {
+      "id": "development-text-046",
+      "modality": "text",
+      "category": "code",
+      "answer_tokens": 1,
+      "prompt_tokens": 49,
+      "nll_sum": 7.354330062866211,
+      "nll_per_token": 7.354330062866211,
+      "seconds": 15.996525806025602
+    },
+    {
+      "id": "development-text-012",
+      "modality": "text",
+      "category": "arithmetic",
+      "answer_tokens": 2,
+      "prompt_tokens": 33,
+      "nll_sum": 4.555564880371094,
+      "nll_per_token": 2.277782440185547,
+      "seconds": 11.37789938901551
+    },
+    {
+      "id": "development-chart-5",
+      "modality": "image",
+      "category": "chart",
+      "answer_tokens": 1,
+      "prompt_tokens": 164,
+      "nll_sum": 0.15433311462402344,
+      "nll_per_token": 0.15433311462402344,
+      "seconds": 72.04239728907123
+    }
+  ],
+  "metrics": {
+    "all": {
+      "cases": 3,
+      "answer_tokens": 4,
+      "nll_per_token": 3.016057014465332
+    },
+    "text": {
+      "cases": 2,
+      "answer_tokens": 3,
+      "nll_per_token": 3.9699649810791016
+    },
+    "image": {
+      "cases": 1,
+      "answer_tokens": 1,
+      "nll_per_token": 0.15433311462402344
+    }
+  },
+  "context_hash": "fa6d6aa4cbd27c74301ff31086b9dc378deef0d532dac4bd6661c1dd9402df96",
+  "expected_cases": 3,
+  "cpu_arithmetic": "FP32 with CUDA matrix operators",
+  "elapsed_seconds": 212.50335260201246,
+  "weight_bytes": 11019161398,
+  "recipe": null,
+  "weight_gib": 10.262393763288856
+}

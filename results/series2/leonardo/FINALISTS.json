@@ -1,0 +1,1097 @@
+[
+  {
+    "status": "complete",
+    "candidate": "W128-E4",
+    "records": [
+      {
+        "id": "development-text-046",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 9.015031814575195,
+        "nll_per_token": 9.015031814575195,
+        "seconds": 16.051496176980436
+      },
+      {
+        "id": "development-text-012",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 5.525213241577148,
+        "nll_per_token": 2.762606620788574,
+        "seconds": 11.407398649025708
+      },
+      {
+        "id": "development-chart-5",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 0.12520217895507812,
+        "nll_per_token": 0.12520217895507812,
+        "seconds": 71.06714478996582
+      },
+      {
+        "id": "development-text-034",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 5.806095123291016,
+        "nll_per_token": 5.806095123291016,
+        "seconds": 16.00042107293848
+      },
+      {
+        "id": "development-text-006",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 8.909744262695312,
+        "nll_per_token": 8.909744262695312,
+        "seconds": 11.16495751508046
+      },
+      {
+        "id": "development-chart-4",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 3,
+        "prompt_tokens": 189,
+        "nll_sum": 6.115253448486328,
+        "nll_per_token": 2.0384178161621094,
+        "seconds": 85.82090964494273
+      },
+      {
+        "id": "development-text-032",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.014448165893554688,
+        "nll_per_token": 0.0007604297838712993,
+        "seconds": 19.615968939033337
+      },
+      {
+        "id": "development-text-004",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 4.192867279052734,
+        "nll_per_token": 4.192867279052734,
+        "seconds": 15.979100272990763
+      },
+      {
+        "id": "development-generated-006",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.24211692810058594,
+        "nll_per_token": 0.24211692810058594,
+        "seconds": 32.9974003280513
+      },
+      {
+        "id": "development-text-010",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 6.732187271118164,
+        "nll_per_token": 6.732187271118164,
+        "seconds": 15.972133610048331
+      },
+      {
+        "id": "development-text-037",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.8422870635986328,
+        "nll_per_token": 0.6140956878662109,
+        "seconds": 14.474558299058117
+      },
+      {
+        "id": "development-chart-0",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 2.289714813232422,
+        "nll_per_token": 2.289714813232422,
+        "seconds": 70.87548478704412
+      },
+      {
+        "id": "development-text-013",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.845346450805664,
+        "nll_per_token": 0.6151154836018881,
+        "seconds": 14.4180665879976
+      },
+      {
+        "id": "development-text-008",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.020481109619140625,
+        "nll_per_token": 0.0010779531378495065,
+        "seconds": 19.470368486014195
+      },
+      {
+        "id": "development-textvqa-003a8ae2ef43b901",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 5.735925674438477,
+        "nll_per_token": 5.735925674438477,
+        "seconds": 62.974788872059435
+      },
+      {
+        "id": "development-text-015",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 3.890859603881836,
+        "nll_per_token": 3.890859603881836,
+        "seconds": 16.767537165083922
+      },
+      {
+        "id": "development-text-036",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 7.269733428955078,
+        "nll_per_token": 3.634866714477539,
+        "seconds": 11.553067657980137
+      },
+      {
+        "id": "development-textvqa-b9dc400eb20bad64",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 2.9666690826416016,
+        "nll_per_token": 2.9666690826416016,
+        "seconds": 63.229831465985626
+      },
+      {
+        "id": "development-text-039",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 5.916370391845703,
+        "nll_per_token": 5.916370391845703,
+        "seconds": 16.786912685027346
+      },
+      {
+        "id": "development-text-007",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 2.0408687591552734,
+        "nll_per_token": 0.6802895863850912,
+        "seconds": 14.624560385011137
+      },
+      {
+        "id": "development-textvqa-181f00d3ee2b2076",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 3,
+        "prompt_tokens": 158,
+        "nll_sum": 12.586980819702148,
+        "nll_per_token": 4.19566027323405,
+        "seconds": 69.89405919099227
+      },
+      {
+        "id": "development-text-001",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 2.376707077026367,
+        "nll_per_token": 0.7922356923421224,
+        "seconds": 14.677766659995541
+      },
+      {
+        "id": "development-text-009",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 7.0390167236328125,
+        "nll_per_token": 7.0390167236328125,
+        "seconds": 16.79376954503823
+      },
+      {
+        "id": "development-generated-002",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.5829067230224609,
+        "nll_per_token": 0.5829067230224609,
+        "seconds": 33.24460087099578
+      },
+      {
+        "id": "development-text-005",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 4.055803298950195,
+        "nll_per_token": 1.0139508247375488,
+        "seconds": 11.386511320015416
+      },
+      {
+        "id": "development-text-044",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.0273895263671875,
+        "nll_per_token": 0.0014415540193256579,
+        "seconds": 19.788592137978412
+      },
+      {
+        "id": "development-generated-004",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.6102714538574219,
+        "nll_per_token": 0.6102714538574219,
+        "seconds": 33.36231634300202
+      },
+      {
+        "id": "development-text-024",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 5.732937812805176,
+        "nll_per_token": 5.732937812805176,
+        "seconds": 11.298539437004365
+      },
+      {
+        "id": "development-text-017",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 3.698880195617676,
+        "nll_per_token": 0.924720048904419,
+        "seconds": 11.455799512914382
+      },
+      {
+        "id": "development-generated-005",
+        "modality": "image",
+        "category": "ocr_generated",
+        "answer_tokens": 2,
+        "prompt_tokens": 87,
+        "nll_sum": 0.0011005401611328125,
+        "nll_per_token": 0.0005502700805664062,
+        "seconds": 33.615639796014875
+      }
+    ],
+    "metrics": {
+      "all": {
+        "cases": 30,
+        "answer_tokens": 105,
+        "nll_per_token": 1.1162705739339194
+      },
+      "text": {
+        "cases": 20,
+        "answer_tokens": 90,
+        "nll_per_token": 0.9550252066718208
+      },
+      "image": {
+        "cases": 10,
+        "answer_tokens": 15,
+        "nll_per_token": 2.0837427775065103
+      }
+    },
+    "context_hash": "07dcb83de784f52d33a0cb42dd996a447a010507161197d14b07daa81c74cb91",
+    "expected_cases": 30,
+    "cpu_arithmetic": "FP32 with CUDA matrix operators",
+    "elapsed_seconds": 946.2863728379598,
+    "weight_bytes": 9105445257,
+    "recipe": {
+      "id": "W128-E4",
+      "method": "W",
+      "group_size": 128,
+      "expert_bits": 2,
+      "attention_bits": 4,
+      "embedding_and_head_bits": 4,
+      "expert_layers_at_4_bits": [],
+      "requires_source_activation_statistics": true,
+      "status": "scheduled",
+      "implemented_by_current_converter": false,
+      "implemented_by_series2": true,
+      "predicted_weight_bytes": 9106289152,
+      "screen_error": 788395.3260165453,
+      "screen_objective": "activation diagonal weighted error"
+    },
+    "weight_gib": 8.480106719769537,
+    "balanced_nll": 1.5193839920891654,
+    "path": "/PROJECT/experiments/series2-20261121-231237/finalists/W128-E4",
+    "file_hashes": {
+      "special_tokens_map.json": "c16f44b3594563d82743ddb0417a2be1bfe3e2000dfad2da4b8f32554593e1a0",
+      "tokenizer.json": "7f332727f9a3f093dd452a39cc978e6757627e5dad1b0673aa4e75174f236dd6",
+      "model-00001-of-00002.safetensors": "d00d05cfd4f1ec8eeef954be5bebfe7d5afc49da054a647b79769de48a5d834e",
+      "SOURCE_MODEL_CARD.md": "02f4cd9085aebde693ba95bfefca487eb6c098fccce6fe826fd8e90dfac56034",
+      "CONVERSION_REPORT.json": "68650dea97e2ca2231eb354b76a1c3cd629719b7a988f92df70859bebbcb2eb6",
+      "processor_config.json": "d7350adce18c8be4b607f261c8f0f7eabbf720bb7aaf648a43d4f8372bbacc2d",
+      "model-00002-of-00002.safetensors": "a6c0cb80248ae026c7ae57ddb9179b5443daaf2f45a76896dbe54aaaa5af904a",
+      "README.md": "784384d80f1db25a120dcf73e85e58f2967dd7c813d37367bf943a8db0a39cc6",
+      "tokenizer_config.json": "bf09342d285139fd37ce10c70878af1d52cb390e9901e10248654293a80ee636",
+      "config.json": "c347dacbab151a17613240394e5cc0171670d0f019d909b0fe2e705182fddc6a",
+      "model.safetensors.index.json": "2e0c22047c3b0306f23875d929721c046717e7d36c5b5d3a7d125d71a73e7ee8",
+      "generation_config.json": "a08737c07a65a8fdf69f7cf086576210e5aad4b241437090b26d7b0c4f7905f7",
+      "chat_template.jinja": "53a9035f3255945704b5857657cfb00c1165090c0641c4f782a0cbf268cc16dc",
+      "tiktoken/tokenizer.model": "f170372dd655728909228220d77cf6b8104a59f38a91262a7d2c4027906ec0d8"
+    },
+    "mac_validation": "pending"
+  },
+  {
+    "status": "complete",
+    "candidate": "W128-S4",
+    "records": [
+      {
+        "id": "development-text-046",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 7.11469841003418,
+        "nll_per_token": 7.11469841003418,
+        "seconds": 15.933194315060973
+      },
+      {
+        "id": "development-text-012",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 3.708256721496582,
+        "nll_per_token": 1.854128360748291,
+        "seconds": 11.34829858399462
+      },
+      {
+        "id": "development-chart-5",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 0.027688980102539062,
+        "nll_per_token": 0.027688980102539062,
+        "seconds": 70.8045524059562
+      },
+      {
+        "id": "development-text-034",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 6.865179061889648,
+        "nll_per_token": 6.865179061889648,
+        "seconds": 15.891774147981778
+      },
+      {
+        "id": "development-text-006",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 3.806382179260254,
+        "nll_per_token": 3.806382179260254,
+        "seconds": 11.063293974963017
+      },
+      {
+        "id": "development-chart-4",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 3,
+        "prompt_tokens": 189,
+        "nll_sum": 2.7865238189697266,
+        "nll_per_token": 0.9288412729899088,
+        "seconds": 85.69735151308123
+      },
+      {
+        "id": "development-text-032",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.030660629272460938,
+        "nll_per_token": 0.001613717330129523,
+        "seconds": 19.518137383041903
+      },
+      {
+        "id": "development-text-004",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 1.9534320831298828,
+        "nll_per_token": 1.9534320831298828,
+        "seconds": 15.95380576804746
+      },
+      {
+        "id": "development-generated-006",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.7926826477050781,
+        "nll_per_token": 0.7926826477050781,
+        "seconds": 32.95290841301903
+      },
+      {
+        "id": "development-text-010",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 4.816183090209961,
+        "nll_per_token": 4.816183090209961,
+        "seconds": 15.911315423902124
+      },
+      {
+        "id": "development-text-037",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.3194904327392578,
+        "nll_per_token": 0.43983014424641925,
+        "seconds": 14.413210829952732
+      },
+      {
+        "id": "development-chart-0",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 1.8778362274169922,
+        "nll_per_token": 1.8778362274169922,
+        "seconds": 70.7481822220143
+      },
+      {
+        "id": "development-text-013",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 0.9992141723632812,
+        "nll_per_token": 0.33307139078776044,
+        "seconds": 14.424840506049804
+      },
+      {
+        "id": "development-text-008",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.03246879577636719,
+        "nll_per_token": 0.001708883988229852,
+        "seconds": 19.5057721210178
+      },
+      {
+        "id": "development-textvqa-003a8ae2ef43b901",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 7.474956512451172,
+        "nll_per_token": 7.474956512451172,
+        "seconds": 62.684977781027555
+      },
+      {
+        "id": "development-text-015",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 0.5117263793945312,
+        "nll_per_token": 0.5117263793945312,
+        "seconds": 16.554586148937233
+      },
+      {
+        "id": "development-text-036",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 7.46461296081543,
+        "nll_per_token": 3.732306480407715,
+        "seconds": 11.372157161938958
+      },
+      {
+        "id": "development-textvqa-b9dc400eb20bad64",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 2.923788070678711,
+        "nll_per_token": 2.923788070678711,
+        "seconds": 62.70091991999652
+      },
+      {
+        "id": "development-text-039",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 0.343780517578125,
+        "nll_per_token": 0.343780517578125,
+        "seconds": 16.518415631959215
+      },
+      {
+        "id": "development-text-007",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.2141246795654297,
+        "nll_per_token": 0.4047082265218099,
+        "seconds": 14.393620206043124
+      },
+      {
+        "id": "development-textvqa-181f00d3ee2b2076",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 3,
+        "prompt_tokens": 158,
+        "nll_sum": 12.17005729675293,
+        "nll_per_token": 4.05668576558431,
+        "seconds": 69.20957789302338
+      },
+      {
+        "id": "development-text-001",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.32537841796875,
+        "nll_per_token": 0.4417928059895833,
+        "seconds": 14.420813878066838
+      },
+      {
+        "id": "development-text-009",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 0.7057723999023438,
+        "nll_per_token": 0.7057723999023438,
+        "seconds": 16.541263964027166
+      },
+      {
+        "id": "development-generated-002",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 1.2337818145751953,
+        "nll_per_token": 1.2337818145751953,
+        "seconds": 33.20013815409038
+      },
+      {
+        "id": "development-text-005",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 2.112995147705078,
+        "nll_per_token": 0.5282487869262695,
+        "seconds": 11.165887727052905
+      },
+      {
+        "id": "development-text-044",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.034698486328125,
+        "nll_per_token": 0.0018262361225328948,
+        "seconds": 19.46551064902451
+      },
+      {
+        "id": "development-generated-004",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.7984771728515625,
+        "nll_per_token": 0.7984771728515625,
+        "seconds": 32.83007769298274
+      },
+      {
+        "id": "development-text-024",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 3.54103946685791,
+        "nll_per_token": 3.54103946685791,
+        "seconds": 11.01469015807379
+      },
+      {
+        "id": "development-text-017",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 0.36917591094970703,
+        "nll_per_token": 0.09229397773742676,
+        "seconds": 11.115814522956498
+      },
+      {
+        "id": "development-generated-005",
+        "modality": "image",
+        "category": "ocr_generated",
+        "answer_tokens": 2,
+        "prompt_tokens": 87,
+        "nll_sum": 1.9073486328125e-05,
+        "nll_per_token": 9.5367431640625e-06,
+        "seconds": 33.144561566994525
+      }
+    ],
+    "metrics": {
+      "all": {
+        "cases": 30,
+        "answer_tokens": 105,
+        "nll_per_token": 0.7462388719831194
+      },
+      "text": {
+        "cases": 20,
+        "answer_tokens": 90,
+        "nll_per_token": 0.5363252215915256
+      },
+      "image": {
+        "cases": 10,
+        "answer_tokens": 15,
+        "nll_per_token": 2.005720774332682
+      }
+    },
+    "context_hash": "6c91fa38c433dfe8d955ee8bcef7fd45add44fccc517151266c5de192fb45330",
+    "expected_cases": 30,
+    "cpu_arithmetic": "FP32 with CUDA matrix operators",
+    "elapsed_seconds": 945.3855229839683,
+    "weight_bytes": 10078212345,
+    "recipe": {
+      "id": "W128-S4",
+      "method": "W",
+      "group_size": 128,
+      "expert_bits": 2,
+      "attention_bits": 4,
+      "embedding_and_head_bits": 8,
+      "expert_layers_at_4_bits": [
+        17,
+        16
+      ],
+      "requires_source_activation_statistics": true,
+      "status": "scheduled",
+      "implemented_by_current_converter": false,
+      "implemented_by_series2": true,
+      "predicted_weight_bytes": 10079056384,
+      "screen_error": 630598.0843263865,
+      "screen_objective": "activation diagonal weighted error"
+    },
+    "weight_gib": 9.3860666686669,
+    "balanced_nll": 1.271022997962104,
+    "path": "/PROJECT/experiments/series2-20261121-231237/finalists/W128-S4",
+    "file_hashes": {
+      "model.safetensors.index.json": "a23c069e34e3146c74a40bd2a7a11b8c05f1e4c396982e596b0da0db71683a68",
+      "processor_config.json": "d7350adce18c8be4b607f261c8f0f7eabbf720bb7aaf648a43d4f8372bbacc2d",
+      "config.json": "2db0247a094e6617206cde8450ad0d62874ff4c951c0c5e54b10f1fe6efabb77",
+      "model-00001-of-00002.safetensors": "758e3d31d336d276658132a46017fab10473d4f6eec4960c72bb7bcea82cc098",
+      "README.md": "a1f579999f6f88dffc804421d460280ab3de7c360da53d6ad78d376b57de47e6",
+      "special_tokens_map.json": "c16f44b3594563d82743ddb0417a2be1bfe3e2000dfad2da4b8f32554593e1a0",
+      "chat_template.jinja": "53a9035f3255945704b5857657cfb00c1165090c0641c4f782a0cbf268cc16dc",
+      "model-00002-of-00002.safetensors": "110a6a9859522169e298a991c89579d0b150b07e1b6788472439c924a0db04f1",
+      "tokenizer_config.json": "bf09342d285139fd37ce10c70878af1d52cb390e9901e10248654293a80ee636",
+      "tokenizer.json": "7f332727f9a3f093dd452a39cc978e6757627e5dad1b0673aa4e75174f236dd6",
+      "CONVERSION_REPORT.json": "8dd149758bd5f065bc62cec3bed4a0cb17359ff61a1ad38693420eff9d32cf1a",
+      "generation_config.json": "a08737c07a65a8fdf69f7cf086576210e5aad4b241437090b26d7b0c4f7905f7",
+      "SOURCE_MODEL_CARD.md": "02f4cd9085aebde693ba95bfefca487eb6c098fccce6fe826fd8e90dfac56034",
+      "tiktoken/tokenizer.model": "f170372dd655728909228220d77cf6b8104a59f38a91262a7d2c4027906ec0d8"
+    },
+    "mac_validation": "pending"
+  },
+  {
+    "status": "complete",
+    "candidate": "W128",
+    "records": [
+      {
+        "id": "development-text-046",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 8.378778457641602,
+        "nll_per_token": 8.378778457641602,
+        "seconds": 16.090448903036304
+      },
+      {
+        "id": "development-text-012",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 5.839700698852539,
+        "nll_per_token": 2.9198503494262695,
+        "seconds": 11.396896878024563
+      },
+      {
+        "id": "development-chart-5",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 0.12432289123535156,
+        "nll_per_token": 0.12432289123535156,
+        "seconds": 70.8521454470465
+      },
+      {
+        "id": "development-text-034",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 5.989004135131836,
+        "nll_per_token": 5.989004135131836,
+        "seconds": 15.938746140920557
+      },
+      {
+        "id": "development-text-006",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 9.04078197479248,
+        "nll_per_token": 9.04078197479248,
+        "seconds": 11.132148438948207
+      },
+      {
+        "id": "development-chart-4",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 3,
+        "prompt_tokens": 189,
+        "nll_sum": 2.383443832397461,
+        "nll_per_token": 0.7944812774658203,
+        "seconds": 87.06493142305408
+      },
+      {
+        "id": "development-text-032",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.013515472412109375,
+        "nll_per_token": 0.0007113406532689145,
+        "seconds": 19.718287992989644
+      },
+      {
+        "id": "development-text-004",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 4.633769989013672,
+        "nll_per_token": 4.633769989013672,
+        "seconds": 16.019260465051048
+      },
+      {
+        "id": "development-generated-006",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.1654033660888672,
+        "nll_per_token": 0.1654033660888672,
+        "seconds": 33.36704484396614
+      },
+      {
+        "id": "development-text-010",
+        "modality": "text",
+        "category": "code",
+        "answer_tokens": 1,
+        "prompt_tokens": 49,
+        "nll_sum": 7.208315849304199,
+        "nll_per_token": 7.208315849304199,
+        "seconds": 16.020635050022975
+      },
+      {
+        "id": "development-text-037",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.8708915710449219,
+        "nll_per_token": 0.6236305236816406,
+        "seconds": 14.516730944043957
+      },
+      {
+        "id": "development-chart-0",
+        "modality": "image",
+        "category": "chart",
+        "answer_tokens": 1,
+        "prompt_tokens": 164,
+        "nll_sum": 2.2349720001220703,
+        "nll_per_token": 2.2349720001220703,
+        "seconds": 71.57264223892707
+      },
+      {
+        "id": "development-text-013",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 1.8011398315429688,
+        "nll_per_token": 0.6003799438476562,
+        "seconds": 14.597452134941705
+      },
+      {
+        "id": "development-text-008",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.018896102905273438,
+        "nll_per_token": 0.0009945317318564967,
+        "seconds": 19.669914093101397
+      },
+      {
+        "id": "development-textvqa-003a8ae2ef43b901",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 5.983560562133789,
+        "nll_per_token": 5.983560562133789,
+        "seconds": 64.62079658394214
+      },
+      {
+        "id": "development-text-015",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 5.099283218383789,
+        "nll_per_token": 5.099283218383789,
+        "seconds": 17.27823597600218
+      },
+      {
+        "id": "development-text-036",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 2,
+        "prompt_tokens": 33,
+        "nll_sum": 7.335700988769531,
+        "nll_per_token": 3.6678504943847656,
+        "seconds": 11.523879154003225
+      },
+      {
+        "id": "development-textvqa-b9dc400eb20bad64",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 1,
+        "prompt_tokens": 148,
+        "nll_sum": 3.6465892791748047,
+        "nll_per_token": 3.6465892791748047,
+        "seconds": 63.16522150998935
+      },
+      {
+        "id": "development-text-039",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 6.478759765625,
+        "nll_per_token": 6.478759765625,
+        "seconds": 16.69066008203663
+      },
+      {
+        "id": "development-text-007",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 2.2852039337158203,
+        "nll_per_token": 0.7617346445719401,
+        "seconds": 14.572411505039781
+      },
+      {
+        "id": "development-textvqa-181f00d3ee2b2076",
+        "modality": "image",
+        "category": "scene_text",
+        "answer_tokens": 3,
+        "prompt_tokens": 158,
+        "nll_sum": 12.035589218139648,
+        "nll_per_token": 4.011863072713216,
+        "seconds": 69.70918409503065
+      },
+      {
+        "id": "development-text-001",
+        "modality": "text",
+        "category": "extraction",
+        "answer_tokens": 3,
+        "prompt_tokens": 42,
+        "nll_sum": 2.4849109649658203,
+        "nll_per_token": 0.8283036549886068,
+        "seconds": 14.58422184700612
+      },
+      {
+        "id": "development-text-009",
+        "modality": "text",
+        "category": "logic",
+        "answer_tokens": 1,
+        "prompt_tokens": 51,
+        "nll_sum": 6.850292205810547,
+        "nll_per_token": 6.850292205810547,
+        "seconds": 16.6942732000025
+      },
+      {
+        "id": "development-generated-002",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.5642948150634766,
+        "nll_per_token": 0.5642948150634766,
+        "seconds": 33.24015994707588
+      },
+      {
+        "id": "development-text-005",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 4.504398345947266,
+        "nll_per_token": 1.1260995864868164,
+        "seconds": 11.303095692070201
+      },
+      {
+        "id": "development-text-044",
+        "modality": "text",
+        "category": "structured",
+        "answer_tokens": 19,
+        "prompt_tokens": 43,
+        "nll_sum": 0.019866943359375,
+        "nll_per_token": 0.0010456285978618421,
+        "seconds": 19.70566898502875
+      },
+      {
+        "id": "development-generated-004",
+        "modality": "image",
+        "category": "spatial",
+        "answer_tokens": 1,
+        "prompt_tokens": 87,
+        "nll_sum": 0.43444252014160156,
+        "nll_per_token": 0.43444252014160156,
+        "seconds": 33.22271146601997
+      },
+      {
+        "id": "development-text-024",
+        "modality": "text",
+        "category": "arithmetic",
+        "answer_tokens": 1,
+        "prompt_tokens": 33,
+        "nll_sum": 5.563940048217773,
+        "nll_per_token": 5.563940048217773,
+        "seconds": 11.218529924051836
+      },
+      {
+        "id": "development-text-017",
+        "modality": "text",
+        "category": "instruction",
+        "answer_tokens": 4,
+        "prompt_tokens": 30,
+        "nll_sum": 2.8929595947265625,
+        "nll_per_token": 0.7232398986816406,
+        "seconds": 11.332495225942694
+      },
+      {
+        "id": "development-generated-005",
+        "modality": "image",
+        "category": "ocr_generated",
+        "answer_tokens": 2,
+        "prompt_tokens": 87,
+        "nll_sum": 0.000457763671875,
+        "nll_per_token": 0.0002288818359375,
+        "seconds": 33.47187348501757
+      }
+    ],
+    "metrics": {
+      "all": {
+        "cases": 30,
+        "answer_tokens": 105,
+        "nll_per_token": 1.1036493937174479
+      },
+      "text": {
+        "cases": 20,
+        "answer_tokens": 90,
+        "nll_per_token": 0.9812234454684787
+      },
+      "image": {
+        "cases": 10,
+        "answer_tokens": 15,
+        "nll_per_token": 1.838205083211263
+      }
+    },
+    "context_hash": "7d554ffcdaf9b83396aa523e71ada7f91c912f23529bb51c9c59c934ad7fa1f6",
+    "expected_cases": 30,
+    "cpu_arithmetic": "FP32 with CUDA matrix operators",
+    "elapsed_seconds": 953.1975343570812,
+    "weight_bytes": 9568604407,
+    "recipe": {
+      "id": "W128",
+      "method": "W",
+      "group_size": 128,
+      "expert_bits": 2,
+      "attention_bits": 4,
+      "embedding_and_head_bits": 8,
+      "expert_layers_at_4_bits": [],
+      "requires_source_activation_statistics": true,
+      "status": "scheduled",
+      "implemented_by_current_converter": false,
+      "implemented_by_series2": true,
+      "predicted_weight_bytes": 9569448448,
+      "screen_error": 788395.3260165453,
+      "screen_objective": "activation diagonal weighted error"
+    },
+    "weight_gib": 8.911457291804254,
+    "balanced_nll": 1.409714264339871,
+    "path": "/PROJECT/experiments/series2-20261121-231237/finalists/W128",
+    "file_hashes": {
+      "SOURCE_MODEL_CARD.md": "02f4cd9085aebde693ba95bfefca487eb6c098fccce6fe826fd8e90dfac56034",
+      "generation_config.json": "a08737c07a65a8fdf69f7cf086576210e5aad4b241437090b26d7b0c4f7905f7",
+      "tokenizer.json": "7f332727f9a3f093dd452a39cc978e6757627e5dad1b0673aa4e75174f236dd6",
+      "model.safetensors.index.json": "fc24eb298d0c14629a0f0902ccb0dfaa53d42414bd159d5f929ed002e14e9964",
+      "config.json": "5d27f5e4e4e8ace9ec7c9a3b4797bb24ca08079ec05daffaf9ade6801a4664b7",
+      "processor_config.json": "d7350adce18c8be4b607f261c8f0f7eabbf720bb7aaf648a43d4f8372bbacc2d",
+      "model-00002-of-00002.safetensors": "0236aef2ad63ae545fe25bea971c0a206af1565403428a3e87203f8be49ad564",
+      "tokenizer_config.json": "bf09342d285139fd37ce10c70878af1d52cb390e9901e10248654293a80ee636",
+      "README.md": "57aaab117ad5711f56fef29171e0bae7df8e9986b69b1d0ad2f51971340db164",
+      "CONVERSION_REPORT.json": "7a4247091546c1345a785f57034bcadc37c6b6fa8a08979b91ba151a0c3b00d0",
+      "special_tokens_map.json": "c16f44b3594563d82743ddb0417a2be1bfe3e2000dfad2da4b8f32554593e1a0",
+      "chat_template.jinja": "53a9035f3255945704b5857657cfb00c1165090c0641c4f782a0cbf268cc16dc",
+      "model-00001-of-00002.safetensors": "758e3d31d336d276658132a46017fab10473d4f6eec4960c72bb7bcea82cc098",
+      "tiktoken/tokenizer.model": "f170372dd655728909228220d77cf6b8104a59f38a91262a7d2c4027906ec0d8"
+    },
+    "mac_validation": "pending"
+  }
+]

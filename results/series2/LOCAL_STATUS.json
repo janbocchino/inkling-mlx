@@ -1,0 +1,85 @@
+{
+  "status": "complete_with_incomplete_mac_tests",
+  "pid": 75036,
+  "run_id": "series2-20261121-231237",
+  "started_unix": 1795335653.9054039,
+  "leonardo": {
+    "status": "complete",
+    "run_id": "series2-20261121-231237",
+    "controller_job": "65072300",
+    "start_unix": 1795302987.925822,
+    "deadline_unix": 1795344483.0,
+    "archive": "/PROJECT/experiments/series2-20261121-231237",
+    "phase": "saving_finalists",
+    "updated_unix": 1795331765.9007132,
+    "worker_jobs": [
+      "65081991",
+      "65082012"
+    ],
+    "failures": [],
+    "finished_unix": 1795331765.9007075,
+    "finalists": [
+      "W128-E4",
+      "W128-S4",
+      "W128"
+    ]
+  },
+  "last_poll_unix": 1795335654.575664,
+  "downloaded": [
+    "W128-E4",
+    "W128-S4"
+  ],
+  "current_candidate": "W128-E4",
+  "mac_runs": {
+    "R64": {
+      "returncode": 1,
+      "seconds": 574.054014666006,
+      "guard": null
+    },
+    "W128-E4": {
+      "returncode": 0,
+      "seconds": 1210.9713907912374,
+      "guard": null
+    },
+    "W128-S4": {
+      "returncode": 1,
+      "seconds": 1007.5918079577386,
+      "guard": null
+    }
+  },
+  "phase": "finished",
+  "recovery_parent_paused": true,
+  "paused_context_children": [
+    74460
+  ],
+  "recovery_started_unix": 1795338864.7734962,
+  "mac_stage_deadline_unix": 1795350712.0980706,
+  "updated_unix": 1795339158.5318038,
+  "resumed_mac_runs": {
+    "R64": {
+      "returncode": 1,
+      "seconds": 38.550579082686454,
+      "guard": null
+    },
+    "W128-S4": {
+      "returncode": 1,
+      "seconds": 24.32466195896268,
+      "guard": null
+    }
+  },
+  "context_rechecks": {
+    "R64": {
+      "returncode": 0,
+      "seconds": 230.84754058299586,
+      "guard": null
+    },
+    "W128-E4": {
+      "returncode": 0,
+      "seconds": 175.75315370922908,
+      "guard": null
+    }
+  },
+  "finished_unix": 1795339334.370241,
+  "comparison_count": 2,
+  "scope_note": "Context repeats reduced after Metal timeouts; extraction ambiguity separately disclosed."
+}

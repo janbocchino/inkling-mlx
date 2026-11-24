@@ -1,0 +1,95 @@
+INKLING 2 MINI — OVERNIGHT EXPERIMENT: FINAL SUMMARY
+Finished 22 November 2026 at 10:22 CET (Europe/Vienna).
+
+RESULT
+Leonardo completed the planned bounded search successfully. Local Mac evaluation
+has ended with incomplete tests, rather than a fully validated deployment model.
+No inference or quantization process from this series remains running.
+The 8.48 GiB candidate is a promising smaller model, but comfortable, reliable
+operation on a 16 GiB Mac is not established.
+
+WHAT RAN
+The Leonardo controller ran approximately eight hours, screened 24 recipes,
+exported and evaluated six new models, and archived three finalists. Two
+finalists were downloaded to the Mac and their files checked against hashes.
+Queued auxiliary GPU search workers did not start in time; the documented CPU
+fallback searched three clipping factors instead of the full eleven-factor grid.
+Weights were derived from the released quantized source, not an original
+full-precision training checkpoint. Activation-weighted clipping is not GPTQ/AWQ.
+Frozen calibration data, numerical code, and source/baseline models were preserved.
+
+ACTUAL MODEL SIZE
+R64 original: 11,019,161,398 weight bytes = 10.2624 GiB.
+W128-E4: 9,105,445,257 weight bytes = 8.4801 GiB (17.37% smaller).
+  Complete downloaded folder: 9,135,827,451 bytes.
+W128-S4: 10,078,212,345 weight bytes = 9.3861 GiB (8.54% smaller).
+  Complete downloaded folder: 10,108,594,578 bytes.
+These are mixed-precision models: most experts use two-bit weights; other
+components retain higher precision. File size is not total inference memory.
+
+MAC QUALITY: CUSTOM TEXT-AND-IMAGE DIAGNOSTICS
+Hardware: Apple M5, 16 GiB unified memory. Greedy generation, up to 192 new tokens,
+prefill chunks of 64, images limited to 512 pixels on the longer side.
+R64: 90/180 questions completed before a Metal GPU timeout.
+W128-E4: 180/180 questions completed, approximately 20 minutes.
+W128-S4: 117/180 completed before a Metal GPU timeout.
+One bounded retry of each incomplete model failed during warmup with the same
+Metal timeout. Saved cases were retained; no additional cases were obtained.
+
+On the 90 questions completed by all three models:
+- W128-E4 versus R64: -2.22 percentage points (two fewer correct answers).
+  Paired bootstrap 95% interval: -5.56 to 0.00 percentage points.
+- W128-S4 versus R64: -1.11 percentage points (one fewer correct answer).
+  Paired bootstrap 95% interval: -3.33 to 0.00 percentage points.
+Both fail the preregistered engineering acceptance check, including its
+requirement for all 180 paired cases. These small custom diagnostic samples,
+with approximate VQA scoring, do not establish benchmark equivalence.
+
+Ambiguous authored extraction questions ask for a shipment code but explicitly
+label only order and warehouse codes. All original scores remain unchanged.
+A post-hoc sensitivity excluding that category gives 78 paired questions:
+E4 change -2.56 points; S4 change -1.28 points. This is a disclosed secondary
+analysis, not a replacement frozen benchmark. See EXTRACTION_SENSITIVITY.json.
+Missing final answers at the token cap also count as failures. The model can
+spend the entire output budget reasoning even with reasoning effort set to none.
+
+MEMORY AND SPEED
+Peak tracked MLX allocations across completed heldout questions:
+R64 11.03 GiB; E4 9.25 GiB; S4 10.15 GiB.
+These are MLX allocations, not total system memory requirements.
+Warning-level system memory pressure was recorded after almost every case.
+Large system swap was present before testing; it cannot all be attributed to
+these models. Context checks still showed about 14.6–15.7 GiB of system swap.
+The timeouts' precise cause has not been isolated.
+
+Median generation rates across each model's available heldout cases:
+R64 26.7 tokens/sec; E4 22.2; S4 18.6.
+Different completed question sets and uncontrolled system pressure mean these
+are observations, not a controlled model speed ranking.
+
+One recovered context sweep completed for both R64 and E4 at approximately
+512, 2048 and 3968 prompt tokens. The original multiple-repeat/prefill-256 plan
+was reduced after timeouts; S4 did not receive the recovered context sweep.
+At 3968 tokens: R64 first token 129.8 s, generation 9.15 tokens/sec;
+E4 first token 66.5 s, generation 11.81 tokens/sec.
+All three context checkpoints recorded warning-level memory pressure.
+Completion means inference ran; it does not by itself certify answer correctness
+or reliable long-context retrieval. No claim of a consistent speedup is made.
+
+INTERPRETATION AND NEXT EXPERIMENT
+The strongest result is a verified 17% reduction in stored weights with one
+complete 180-question local run. Image tasks and generation reliability still
+need attention. The present evidence does not justify declaring either finalist
+a quality-equivalent or comfortably fitting 16 GiB deployment model.
+A separate next experiment should isolate Metal timeouts under a clean, stable
+Mac workload, then complete matched paired evaluations, repair the ambiguous
+extraction task in a newly versioned dataset, and repeat context/speed tests.
+That would be a new series, not a continuation using incompatible cached scores.
+
+EVIDENCE IN THIS FOLDER
+leonardo/RESULTS.json — archived remote model selection and sizes.
+MAC_COMPARISON.json — paired case changes and uncertainty intervals.
+mac/heldout-*.json — per-case outputs, timing and memory observations.
+mac/context-recovery-*.json — bounded recovered context sweeps.
+EXTRACTION_SENSITIVITY.json — disclosed secondary category exclusion.
+LOCAL_STATUS.json and RECOVERY_EVENTS.json — completion and recovery history.

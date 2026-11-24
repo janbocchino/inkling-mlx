@@ -1,0 +1,12 @@
+{
+  "status": "running",
+  "run_id": "series2-20261121-231237",
+  "controller_job": "65072300",
+  "start_unix": 1795302987.925822,
+  "deadline_unix": 1795344483.0,
+  "archive": "/PROJECT/experiments/series2-20261121-231237",
+  "phase": "source_reference_and_calibration",
+  "updated_unix": 1795303276.067819,
+  "worker_jobs": [],
+  "failures": []
+}

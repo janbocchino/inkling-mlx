@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this exploratory software/report and the original model, runtime, and datasets separately."
+title: "Requantizing Inkling 2 Mini for 16 GiB Apple Silicon"
+type: software
+version: 0.1.0
+date-released: 2026-11-22
+authors:
+  - name: "Inkling MLX experiment contributors"
+license: MIT
+abstract: "An exploratory study of mixed-precision MLX conversion, clipping, and native multimodal inference on a 16 GiB Mac. Includes incomplete evaluations and negative deployment findings."

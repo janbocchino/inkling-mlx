@@ -1,0 +1,5173 @@
+{
+  "modules": [
+    {
+      "path": "lm_head",
+      "shape": [
+        201024,
+        2304
+      ],
+      "default_bits": 8,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 926318592
+    },
+    {
+      "path": "model.vision_tower.merger.linear_2",
+      "shape": [
+        2304,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 18874368
+    },
+    {
+      "path": "model.vision_tower.merger.linear_1",
+      "shape": [
+        4096,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 33554432
+    },
+    {
+      "path": "model.vision_tower.layers.22.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.22.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.22.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.22.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.22.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.22.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.21.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.21.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.21.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.21.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.21.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.21.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.20.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.20.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.20.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.20.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.20.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.20.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.19.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.19.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.19.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.19.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.19.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.19.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.18.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.18.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.18.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.18.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.18.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.18.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.17.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.17.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.17.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.17.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.17.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.17.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.16.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.16.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.16.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.16.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.16.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.16.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.15.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.15.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.15.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.15.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.15.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.15.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.14.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.14.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.14.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.14.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.14.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.14.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.13.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.13.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.13.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.13.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.13.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.13.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.12.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.12.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.12.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.12.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.12.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.12.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.11.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.11.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.11.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.11.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.11.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.11.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.10.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.10.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.10.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.10.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.10.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.10.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.9.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.9.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.9.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.9.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.9.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.9.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.8.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.8.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.8.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.8.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.8.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.8.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.7.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.7.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.7.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.7.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.7.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.7.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.6.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.6.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.6.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.6.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.6.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.6.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.5.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.5.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.5.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.5.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.5.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.5.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.4.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.4.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.4.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.4.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.4.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.4.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.3.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.3.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.3.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.3.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.3.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.3.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.2.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.2.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.2.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.2.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.2.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.2.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.1.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.1.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.1.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.1.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.1.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.1.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.0.mlp.fc2",
+      "shape": [
+        1024,
+        4096
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8390656
+    },
+    {
+      "path": "model.vision_tower.layers.0.mlp.fc1",
+      "shape": [
+        4096,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 8396800
+    },
+    {
+      "path": "model.vision_tower.layers.0.self_attn.out_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.0.self_attn.v_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.0.self_attn.k_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.layers.0.self_attn.q_proj",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2099200
+    },
+    {
+      "path": "model.vision_tower.embeddings.position_embedding",
+      "shape": [
+        1024,
+        1024
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2097152
+    },
+    {
+      "path": "model.vision_tower.embeddings.patch_embedding",
+      "shape": [
+        1024,
+        1200
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 2457600
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.v_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.k_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.23.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.23.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 350355456
+    },
+    {
+      "path": "model.language_model.layers.23.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 700710912
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.22.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.22.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 350355456
+    },
+    {
+      "path": "model.language_model.layers.22.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 700710912
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.21.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.21.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 350355456
+    },
+    {
+      "path": "model.language_model.layers.21.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 700710912
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.20.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.20.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 350355456
+    },
+    {
+      "path": "model.language_model.layers.20.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 700710912
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.19.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.19.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.19.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.18.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.18.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.18.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.v_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.k_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.17.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.17.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.17.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.17.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.16.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.16.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.16.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.16.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.15.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.15.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.15.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.15.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.14.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.14.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.14.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.14.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.13.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.13.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.13.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.13.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.12.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.12.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.12.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.12.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.v_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.k_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.11.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.11.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.11.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.11.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.10.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.10.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.10.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.10.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.9.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.9.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.9.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.9.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.8.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.8.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.8.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.8.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.7.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.7.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.7.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.7.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.6.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.6.mlp_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.mlp_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.mlp_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.v_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.v_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.v_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.k_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.k_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.k_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.q_message_gate.message_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.q_message_gate.forget_gate_proj",
+      "shape": [
+        2304,
+        64
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.q_message_gate.down_proj",
+      "shape": [
+        64,
+        4608
+      ],
+      "default_bits": null,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 589824
+    },
+    {
+      "path": "model.language_model.layers.6.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.6.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.v_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.k_sconv.weight_proj",
+      "shape": [
+        32,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 147456
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.5.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.5.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.5.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.4.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.4.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.4.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.3.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.3.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.3.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.2.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.2.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.2.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.1.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.1.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.1.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.sink_proj",
+      "shape": [
+        24,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 110592
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.gate_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.o_proj",
+      "shape": [
+        2304,
+        3072
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.r_proj",
+      "shape": [
+        384,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 1769472
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.v_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.k_proj",
+      "shape": [
+        1024,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 4718592
+    },
+    {
+      "path": "model.language_model.layers.0.self_attn.q_proj",
+      "shape": [
+        3072,
+        2304
+      ],
+      "default_bits": 4,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 14155776
+    },
+    {
+      "path": "model.language_model.layers.0.mlp.experts.down_proj",
+      "shape": [
+        128,
+        2304,
+        1152
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 191103488
+    },
+    {
+      "path": "model.language_model.layers.0.mlp.experts.gate_up_proj",
+      "shape": [
+        128,
+        2304,
+        2304
+      ],
+      "default_bits": 2,
+      "target_metadata_bytes_per_group": 8,
+      "source_bytes": 382206464
+    },
+    {
+      "path": "model.language_model.embed_tokens",
+      "shape": [
+        201024,
+        2304
+      ],
+      "default_bits": 8,
+      "target_metadata_bytes_per_group": 4,
+      "source_bytes": 926318592
+    }
+  ],
+  "parameter_bytes": 19568337920
+}

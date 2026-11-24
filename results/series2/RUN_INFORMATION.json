@@ -1,0 +1,17 @@
+{
+  "id": "series2-20261121-231237",
+  "run": "/SCRATCH/inkling-mlx-series/series2-20261121-231237",
+  "kit": "/PROJECT/series2-kit",
+  "project": "/PROJECT",
+  "gpu_pilot_job": "65069079",
+  "source_pilot_job": "65069533",
+  "matrix_service_job": "65071455",
+  "hybrid_pilot_job": "65070739",
+  "matrix_service_pilot_job": "65070679",
+  "matrix_service_previous_job": "65070960",
+  "packing_192_job": "65071467",
+  "exact_pilot_job": "65071468",
+  "controller_job": "65072300",
+  "local_watcher_pid": 57857,
+  "automation_id": "finish-inkling-overnight-experiment"
+}

@@ -1,0 +1,9 @@
+test_full_loop_and_vision_conversion_reload (__main__.ConverterTests.test_full_loop_and_vision_conversion_reload) ... ok
+test_repack_uses_each_expert_global_scale (__main__.ConverterTests.test_repack_uses_each_expert_global_scale) ... ok
+test_signatures_handle_scalars_and_transposed_arrays (__main__.ConverterTests.test_signatures_handle_scalars_and_transposed_arrays) ... ok
+test_zero_and_constant_rows_are_finite (__main__.ConverterTests.test_zero_and_constant_rows_are_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.684s
+
+OK

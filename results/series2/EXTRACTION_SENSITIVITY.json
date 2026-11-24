@@ -1,0 +1,27 @@
+{
+  "reason": "Ambiguous authored prompts request a shipment code but explicitly identify only order and warehouse codes.",
+  "analysis_is_post_hoc": true,
+  "reports": {
+    "R64": {
+      "cases": 78,
+      "score": 0.8974358974358975,
+      "excluded_category": "extraction",
+      "excluded_cases": 12,
+      "original_frozen_report_unchanged": true
+    },
+    "W128-E4": {
+      "cases": 160,
+      "score": 0.85,
+      "excluded_category": "extraction",
+      "excluded_cases": 20,
+      "original_frozen_report_unchanged": true
+    },
+    "W128-S4": {
+      "cases": 102,
+      "score": 0.8529411764705882,
+      "excluded_category": "extraction",
+      "excluded_cases": 15,
+      "original_frozen_report_unchanged": true
+    }
+  }
+}

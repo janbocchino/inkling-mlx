@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "source": "/work/source",
+  "cases": [
+    {
+      "id": "calibration-text-093",
+      "modality": "text",
+      "tokens": 49,
+      "seconds": 28.441149172838777,
+      "finite": true
+    },
+    {
+      "id": "calibration-text-025",
+      "modality": "text",
+      "tokens": 191,
+      "seconds": 74.8048383006826,
+      "finite": true
+    },
+    {
+      "id": "calibration-textvqa-0122c5279a501df2",
+      "modality": "image",
+      "tokens": 148,
+      "seconds": 75.01407659007236,
+      "finite": true
+    }
+  ],
+  "load_seconds": 1234.4996161023155,
+  "answer_loss_pilot": {
+    "id": "development-text-046",
+    "modality": "text",
+    "category": "code",
+    "answer_tokens": 1,
+    "prompt_tokens": 49,
+    "nll_sum": 0.05003547668457031,
+    "nll_per_token": 0.05003547668457031
+  },
+  "observed_expert_modules": 48,
+  "peak_rss_bytes_linux": 106922164224,
+  "seconds": 1440.6094433842227
+}

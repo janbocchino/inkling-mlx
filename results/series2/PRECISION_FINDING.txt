@@ -1,0 +1,9 @@
+Precision finding from the series 2 preflight
+
+The previous report assumed BF16 scale and offset metadata throughout. That assumption was inaccurate. The validated R64 checkpoint stores FP32 scales for native NVFP4 expert layers and BF16 scales for its MXFP8 tail. This is visible in CONVERSION_REPORT.json tensor signatures.
+
+The MLX dequantization call promotes native NVFP4 reconstructed weights to FP32 when applying global scaling, even when BF16 was requested. The new reference preserves these exact represented values. Its experts stay in host RAM with a bounded FP32 A100 cache.
+
+Every R, C and W recipe preserves the same metadata precision. Group size and clipping can therefore be compared without an extra BF16 rounding change. The larger groups may save more metadata than the original plan estimated.
+
+The exact hybrid text and image forwards agree with tiny CPU forwards within approximately 0.0000012. The 192 quantizer parity fixtures cover both BF16 and FP32 metadata. These are numerical checks, not general model accuracy results.

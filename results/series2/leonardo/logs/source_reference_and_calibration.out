@@ -1,0 +1,232 @@
+{"event": "reference_module_ready", "unix_time": 1795303061.0374317, "module": "model.language_model.layers.23.mlp.experts.down_proj", "index": 1, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303066.6619503, "module": "model.language_model.layers.23.mlp.experts.gate_up_proj", "index": 2, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303069.5578551, "module": "model.language_model.layers.22.mlp.experts.down_proj", "index": 3, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303075.018738, "module": "model.language_model.layers.22.mlp.experts.gate_up_proj", "index": 4, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303077.8606036, "module": "model.language_model.layers.21.mlp.experts.down_proj", "index": 5, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303083.3447921, "module": "model.language_model.layers.21.mlp.experts.gate_up_proj", "index": 6, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303086.1758115, "module": "model.language_model.layers.20.mlp.experts.down_proj", "index": 7, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303091.5941658, "module": "model.language_model.layers.20.mlp.experts.gate_up_proj", "index": 8, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303096.2347481, "module": "model.language_model.layers.19.mlp.experts.down_proj", "index": 9, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303105.3714697, "module": "model.language_model.layers.19.mlp.experts.gate_up_proj", "index": 10, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303109.9889007, "module": "model.language_model.layers.18.mlp.experts.down_proj", "index": 11, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303119.1035063, "module": "model.language_model.layers.18.mlp.experts.gate_up_proj", "index": 12, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303123.6981828, "module": "model.language_model.layers.17.mlp.experts.down_proj", "index": 13, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303132.806814, "module": "model.language_model.layers.17.mlp.experts.gate_up_proj", "index": 14, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303137.4536831, "module": "model.language_model.layers.16.mlp.experts.down_proj", "index": 15, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303146.608556, "module": "model.language_model.layers.16.mlp.experts.gate_up_proj", "index": 16, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303151.2103057, "module": "model.language_model.layers.15.mlp.experts.down_proj", "index": 17, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303160.3498833, "module": "model.language_model.layers.15.mlp.experts.gate_up_proj", "index": 18, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303164.9411287, "module": "model.language_model.layers.14.mlp.experts.down_proj", "index": 19, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303174.0589046, "module": "model.language_model.layers.14.mlp.experts.gate_up_proj", "index": 20, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303178.383815, "module": "model.language_model.layers.13.mlp.experts.down_proj", "index": 21, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303187.1580515, "module": "model.language_model.layers.13.mlp.experts.gate_up_proj", "index": 22, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303191.4139254, "module": "model.language_model.layers.12.mlp.experts.down_proj", "index": 23, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303200.218139, "module": "model.language_model.layers.12.mlp.experts.gate_up_proj", "index": 24, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303204.5489209, "module": "model.language_model.layers.11.mlp.experts.down_proj", "index": 25, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303213.3533819, "module": "model.language_model.layers.11.mlp.experts.gate_up_proj", "index": 26, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303217.4944234, "module": "model.language_model.layers.10.mlp.experts.down_proj", "index": 27, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303226.1038206, "module": "model.language_model.layers.10.mlp.experts.gate_up_proj", "index": 28, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303230.3061914, "module": "model.language_model.layers.9.mlp.experts.down_proj", "index": 29, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303239.1309197, "module": "model.language_model.layers.9.mlp.experts.gate_up_proj", "index": 30, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303243.3736048, "module": "model.language_model.layers.8.mlp.experts.down_proj", "index": 31, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303252.1731398, "module": "model.language_model.layers.8.mlp.experts.gate_up_proj", "index": 32, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303256.4652345, "module": "model.language_model.layers.7.mlp.experts.down_proj", "index": 33, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303265.1916313, "module": "model.language_model.layers.7.mlp.experts.gate_up_proj", "index": 34, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303269.4644518, "module": "model.language_model.layers.6.mlp.experts.down_proj", "index": 35, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303278.16683, "module": "model.language_model.layers.6.mlp.experts.gate_up_proj", "index": 36, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303282.3774319, "module": "model.language_model.layers.5.mlp.experts.down_proj", "index": 37, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303291.0832984, "module": "model.language_model.layers.5.mlp.experts.gate_up_proj", "index": 38, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303295.3058116, "module": "model.language_model.layers.4.mlp.experts.down_proj", "index": 39, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303304.044019, "module": "model.language_model.layers.4.mlp.experts.gate_up_proj", "index": 40, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303308.2970963, "module": "model.language_model.layers.3.mlp.experts.down_proj", "index": 41, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303317.0204823, "module": "model.language_model.layers.3.mlp.experts.gate_up_proj", "index": 42, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303321.271858, "module": "model.language_model.layers.2.mlp.experts.down_proj", "index": 43, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303330.0439951, "module": "model.language_model.layers.2.mlp.experts.gate_up_proj", "index": 44, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303334.1587708, "module": "model.language_model.layers.1.mlp.experts.down_proj", "index": 45, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303342.791331, "module": "model.language_model.layers.1.mlp.experts.gate_up_proj", "index": 46, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303346.9325275, "module": "model.language_model.layers.0.mlp.experts.down_proj", "index": 47, "total": 48}
+{"event": "reference_module_ready", "unix_time": 1795303355.604643, "module": "model.language_model.layers.0.mlp.experts.gate_up_proj", "index": 48, "total": 48}
+{"event": "cuda_matrices_registered", "unix_time": 1795303381.7729785, "count": 32, "allocated_bytes": 2213658624}
+{"event": "cuda_matrices_registered", "unix_time": 1795303384.1645339, "count": 64, "allocated_bytes": 2486480896}
+{"event": "cuda_matrices_registered", "unix_time": 1795303386.5682316, "count": 96, "allocated_bytes": 2759315456}
+{"event": "cuda_matrices_registered", "unix_time": 1795303388.853271, "count": 128, "allocated_bytes": 3019554816}
+{"event": "cuda_matrices_registered", "unix_time": 1795303427.6898122, "count": 160, "allocated_bytes": 3352604672}
+{"event": "cuda_matrices_registered", "unix_time": 1795303574.8452861, "count": 192, "allocated_bytes": 3743690752}
+{"event": "cuda_matrices_registered", "unix_time": 1795303648.6845486, "count": 224, "allocated_bytes": 3978883072}
+{"event": "cuda_matrices_registered", "unix_time": 1795303686.122459, "count": 256, "allocated_bytes": 4161425408}
+{"event": "cuda_matrices_registered", "unix_time": 1795303759.562683, "count": 288, "allocated_bytes": 4349104128}
+{"event": "cuda_matrices_registered", "unix_time": 1795303796.9774356, "count": 320, "allocated_bytes": 4526141440}
+{"event": "cuda_matrices_registered", "unix_time": 1795303870.375715, "count": 352, "allocated_bytes": 4711198720}
+{"event": "cuda_matrices_registered", "unix_time": 1795303907.8114958, "count": 384, "allocated_bytes": 4889350144}
+{"event": "cuda_matrices_registered", "unix_time": 1795303981.230061, "count": 416, "allocated_bytes": 5078863872}
+{"event": "cuda_matrices_registered", "unix_time": 1795304018.645292, "count": 448, "allocated_bytes": 5254983680}
+{"event": "cuda_matrices_registered", "unix_time": 1795304129.0084558, "count": 480, "allocated_bytes": 5561896960}
+{"event": "cuda_matrix_backend_attached", "unix_time": 1795304275.7187595, "modules": 510}
+[transformers] You are using a model of type `inkling2_loop` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+{"event": "reference_loaded", "unix_time": 1795304278.03543, "seconds": 1220.370255796006}
+{"event": "calibration_case", "unix_time": 1795304304.5371807, "id": "calibration-text-093", "modality": "text", "tokens": 49, "seconds": 26.496242436929606}
+{"event": "calibration_case", "unix_time": 1795304372.7403572, "id": "calibration-text-025", "modality": "text", "tokens": 191, "seconds": 68.18151108396705}
+{"event": "calibration_case", "unix_time": 1795304442.324539, "id": "calibration-textvqa-0122c5279a501df2", "modality": "image", "tokens": 148, "seconds": 69.5616713060299}
+{"event": "calibration_case", "unix_time": 1795304460.712597, "id": "calibration-text-068", "modality": "text", "tokens": 41, "seconds": 18.365369623992592}
+{"event": "calibration_case", "unix_time": 1795304532.4771996, "id": "calibration-text-012", "modality": "text", "tokens": 202, "seconds": 71.74298111803364}
+{"event": "calibration_case", "unix_time": 1795304600.6148305, "id": "calibration-textvqa-00c359f294f7dcd9", "modality": "image", "tokens": 146, "seconds": 68.115790782962}
+{"event": "calibration_case", "unix_time": 1795304616.2685506, "id": "calibration-text-065", "modality": "text", "tokens": 28, "seconds": 14.062586862011813}
+{"event": "calibration_case", "unix_time": 1795304686.2640002, "id": "calibration-text-008", "modality": "text", "tokens": 197, "seconds": 69.97294691600837}
+{"event": "calibration_case", "unix_time": 1795304723.8919206, "id": "calibration-generated-014", "modality": "image", "tokens": 85, "seconds": 37.59890051500406}
+{"event": "calibration_case", "unix_time": 1795304787.0329196, "id": "calibration-text-020", "modality": "text", "tokens": 176, "seconds": 63.118490432039835}
+{"event": "calibration_case", "unix_time": 1795304805.5286767, "id": "calibration-text-074", "modality": "text", "tokens": 41, "seconds": 18.473027753992938}
+{"event": "calibration_case", "unix_time": 1795304880.0084162, "id": "calibration-textvqa-0054c91397f2fe05", "modality": "image", "tokens": 158, "seconds": 74.45667949994095}
+{"event": "calibration_case", "unix_time": 1795304947.0026631, "id": "calibration-text-027", "modality": "text", "tokens": 184, "seconds": 65.42559395695571}
+{"event": "calibration_case", "unix_time": 1795304960.4044733, "id": "calibration-text-083", "modality": "text", "tokens": 27, "seconds": 13.379990364075638}
+{"event": "calibration_case", "unix_time": 1795304997.5587766, "id": "calibration-generated-000", "modality": "image", "tokens": 85, "seconds": 37.13217668491416}
+{"event": "calibration_case", "unix_time": 1795305060.6415381, "id": "calibration-text-016", "modality": "text", "tokens": 177, "seconds": 63.059920446015894}
+{"event": "calibration_case", "unix_time": 1795305098.425984, "id": "calibration-text-030", "modality": "text", "tokens": 102, "seconds": 37.761771793011576}
+{"event": "calibration_case", "unix_time": 1795305135.8917158, "id": "calibration-generated-001", "modality": "image", "tokens": 85, "seconds": 37.44390516006388}
+{"event": "calibration_case", "unix_time": 1795305155.4573393, "id": "calibration-text-073", "modality": "text", "tokens": 40, "seconds": 17.97069835406728}
+{"event": "calibration_case", "unix_time": 1795305197.724448, "id": "calibration-text-026", "modality": "text", "tokens": 116, "seconds": 42.2444823019905}
+{"event": "calibration_case", "unix_time": 1795305235.1855187, "id": "calibration-generated-005", "modality": "image", "tokens": 85, "seconds": 37.43840929190628}
+{"event": "calibration_case", "unix_time": 1795305295.7456996, "id": "calibration-text-015", "modality": "text", "tokens": 169, "seconds": 60.53774388204329}
+{"event": "calibration_case", "unix_time": 1795305358.8998222, "id": "calibration-text-003", "modality": "text", "tokens": 177, "seconds": 63.13256418204401}
+{"event": "calibration_case", "unix_time": 1795305396.502366, "id": "calibration-generated-010", "modality": "image", "tokens": 85, "seconds": 37.579800084931776}
+{"event": "calibration_case", "unix_time": 1795305478.8536172, "id": "calibration-text-019", "modality": "text", "tokens": 226, "seconds": 80.74939736304805}
+{"event": "calibration_case", "unix_time": 1795305539.0455346, "id": "calibration-text-010", "modality": "text", "tokens": 168, "seconds": 60.17032426793594}
+{"event": "calibration_case", "unix_time": 1795305576.6433833, "id": "calibration-generated-012", "modality": "image", "tokens": 85, "seconds": 37.5742781170411}
+{"event": "calibration_case", "unix_time": 1795305647.451209, "id": "calibration-text-024", "modality": "text", "tokens": 199, "seconds": 70.78527181199752}
+{"event": "calibration_case", "unix_time": 1795305668.6540082, "id": "calibration-text-069", "modality": "text", "tokens": 49, "seconds": 21.180227377917618}
+{"event": "calibration_case", "unix_time": 1795305706.5030963, "id": "calibration-generated-013", "modality": "image", "tokens": 85, "seconds": 37.82797673600726}
+{"event": "calibration_case", "unix_time": 1795305774.4289217, "id": "calibration-text-007", "modality": "text", "tokens": 187, "seconds": 66.2815137959551}
+{"event": "calibration_case", "unix_time": 1795305837.0397778, "id": "calibration-text-039", "modality": "text", "tokens": 174, "seconds": 62.58838220196776}
+{"event": "calibration_case", "unix_time": 1795305874.6591394, "id": "calibration-generated-008", "modality": "image", "tokens": 85, "seconds": 37.596884903963655}
+{"event": "calibration_case", "unix_time": 1795305937.2251182, "id": "calibration-text-028", "modality": "text", "tokens": 169, "seconds": 62.543296423973516}
+{"event": "calibration_case", "unix_time": 1795305957.803569, "id": "calibration-text-076", "modality": "text", "tokens": 47, "seconds": 20.555813047103584}
+{"event": "calibration_case", "unix_time": 1795306033.816851, "id": "calibration-textvqa-00685bc495504d61", "modality": "image", "tokens": 159, "seconds": 75.99049214296974}
+{"event": "calibration_case", "unix_time": 1795306056.6466856, "id": "calibration-text-081", "modality": "text", "tokens": 49, "seconds": 21.185406250995584}
+{"event": "calibration_case", "unix_time": 1795306071.2348487, "id": "calibration-text-066", "modality": "text", "tokens": 31, "seconds": 14.5656750400085}
+{"event": "calibration_case", "unix_time": 1795306108.5924242, "id": "calibration-generated-006", "modality": "image", "tokens": 85, "seconds": 37.33509006910026}
+{"event": "calibration_case", "unix_time": 1795306135.0297499, "id": "calibration-text-029", "modality": "text", "tokens": 66, "seconds": 26.41480272205081}
+{"event": "calibration_case", "unix_time": 1795306149.049474, "id": "calibration-text-095", "modality": "text", "tokens": 28, "seconds": 13.996427627047524}
+{"event": "calibration_case", "unix_time": 1795306186.8600612, "id": "calibration-generated-015", "modality": "image", "tokens": 85, "seconds": 37.78804622206371}
+{"event": "calibration_case", "unix_time": 1795306241.0713956, "id": "calibration-text-022", "modality": "text", "tokens": 146, "seconds": 52.580343306064606}
+{"event": "calibration_case", "unix_time": 1795306290.4278913, "id": "calibration-text-002", "modality": "text", "tokens": 136, "seconds": 49.33372121700086}
+{"event": "calibration_case", "unix_time": 1795306388.1052685, "id": "calibration-textvqa-0202faf23a9aae11", "modality": "image", "tokens": 198, "seconds": 97.65483783103991}
+{"event": "calibration_case", "unix_time": 1795306455.5995038, "id": "calibration-text-000", "modality": "text", "tokens": 190, "seconds": 67.47166464594193}
+{"event": "calibration_case", "unix_time": 1795306470.2772498, "id": "calibration-text-084", "modality": "text", "tokens": 31, "seconds": 14.655362306977622}
+{"event": "calibration_case", "unix_time": 1795306508.0608249, "id": "calibration-generated-007", "modality": "image", "tokens": 85, "seconds": 37.76163299998734}
+{"event": "calibration_case", "unix_time": 1795306527.8166037, "id": "calibration-text-049", "modality": "text", "tokens": 40, "seconds": 18.127340454957448}
+{"event": "calibration_case", "unix_time": 1795306546.057758, "id": "calibration-text-085", "modality": "text", "tokens": 40, "seconds": 18.218492489075288}
+{"event": "calibration_case", "unix_time": 1795306621.9802017, "id": "calibration-textvqa-006d10667d17b924", "modality": "image", "tokens": 159, "seconds": 75.90044402796775}
+{"event": "calibration_case", "unix_time": 1795306635.8259254, "id": "calibration-text-047", "modality": "text", "tokens": 27, "seconds": 13.823130659060553}
+{"event": "calibration_case", "unix_time": 1795306654.1476684, "id": "calibration-text-092", "modality": "text", "tokens": 41, "seconds": 18.299066007020883}
+{"event": "calibration_case", "unix_time": 1795306692.101394, "id": "calibration-generated-003", "modality": "image", "tokens": 85, "seconds": 37.92986272298731}
+{"event": "calibration_case", "unix_time": 1795306764.1216667, "id": "calibration-text-006", "modality": "text", "tokens": 198, "seconds": 70.39877654402517}
+{"event": "calibration_case", "unix_time": 1795306782.686907, "id": "calibration-text-056", "modality": "text", "tokens": 41, "seconds": 18.5440191780217}
+{"event": "calibration_case", "unix_time": 1795306820.4090278, "id": "calibration-generated-002", "modality": "image", "tokens": 85, "seconds": 37.699619918945245}
+{"event": "calibration_case", "unix_time": 1795306841.0847642, "id": "calibration-text-082", "modality": "text", "tokens": 47, "seconds": 20.65392348403111}
+{"event": "calibration_case", "unix_time": 1795306883.4426196, "id": "calibration-text-041", "modality": "text", "tokens": 114, "seconds": 42.336203285027295}
+{"event": "calibration_case", "unix_time": 1795306920.8195484, "id": "calibration-generated-004", "modality": "image", "tokens": 85, "seconds": 37.35535143094603}
+{"event": "calibration_case", "unix_time": 1795306943.3979328, "id": "calibration-text-045", "modality": "text", "tokens": 49, "seconds": 20.95213017903734}
+{"event": "calibration_case", "unix_time": 1795306957.8146982, "id": "calibration-text-060", "modality": "text", "tokens": 31, "seconds": 14.392076042015105}
+{"event": "calibration_case", "unix_time": 1795306995.7176418, "id": "calibration-generated-009", "modality": "image", "tokens": 85, "seconds": 37.88002918905113}
+{"event": "calibration_case", "unix_time": 1795307016.670583, "id": "calibration-text-087", "modality": "text", "tokens": 49, "seconds": 20.930243727052584}
+{"event": "calibration_case", "unix_time": 1795307054.8670144, "id": "calibration-text-032", "modality": "text", "tokens": 103, "seconds": 38.17384101904463}
+{"event": "calibration_case", "unix_time": 1795307122.903998, "id": "calibration-textvqa-005635e119b9f32f", "modality": "image", "tokens": 145, "seconds": 68.01245502696838}
+{"event": "calibration_case", "unix_time": 1795307142.465229, "id": "calibration-text-091", "modality": "text", "tokens": 40, "seconds": 17.937498565996066}
+{"event": "calibration_case", "unix_time": 1795307178.4744248, "id": "calibration-text-014", "modality": "text", "tokens": 96, "seconds": 35.98700382607058}
+{"event": "calibration_case", "unix_time": 1795307226.7017565, "id": "calibration-textvqa-015c537f722d115e", "modality": "image", "tokens": 107, "seconds": 48.20395219698548}
+{"event": "calibration_case", "unix_time": 1795307240.4831069, "id": "calibration-text-053", "modality": "text", "tokens": 28, "seconds": 13.759651575004682}
+{"event": "calibration_case", "unix_time": 1795307253.670978, "id": "calibration-text-072", "modality": "text", "tokens": 31, "seconds": 13.165384707972407}
+{"event": "calibration_case", "unix_time": 1795307291.2261598, "id": "calibration-generated-011", "modality": "image", "tokens": 85, "seconds": 37.53132112789899}
+{"event": "calibration_case", "unix_time": 1795307313.0650392, "id": "calibration-text-088", "modality": "text", "tokens": 47, "seconds": 20.19297601096332}
+{"event": "calibration_case", "unix_time": 1795307331.0840092, "id": "calibration-text-061", "modality": "text", "tokens": 40, "seconds": 17.997225563041866}
+{"event": "calibration_case", "unix_time": 1795307344.6848319, "id": "calibration-text-077", "modality": "text", "tokens": 28, "seconds": 13.577614950947464}
+{"event": "calibration_case", "unix_time": 1795307362.822956, "id": "calibration-text-086", "modality": "text", "tokens": 41, "seconds": 18.11480926000513}
+{"event": "calibration_case", "unix_time": 1795307383.0435445, "id": "calibration-text-058", "modality": "text", "tokens": 47, "seconds": 20.197537630912848}
+{"event": "calibration_case", "unix_time": 1795307425.1225364, "id": "calibration-text-034", "modality": "text", "tokens": 115, "seconds": 42.05707273504231}
+{"event": "calibration_case", "unix_time": 1795307472.7453566, "id": "calibration-text-017", "modality": "text", "tokens": 127, "seconds": 45.99200344795827}
+{"event": "calibration_case", "unix_time": 1795307506.4283586, "id": "calibration-text-035", "modality": "text", "tokens": 89, "seconds": 33.66132680897135}
+{"event": "calibration_case", "unix_time": 1795307572.4301617, "id": "calibration-text-037", "modality": "text", "tokens": 186, "seconds": 65.98011445393786}
+{"event": "calibration_case", "unix_time": 1795307586.2042532, "id": "calibration-text-059", "modality": "text", "tokens": 28, "seconds": 13.751533729024231}
+{"event": "calibration_case", "unix_time": 1795307606.8060086, "id": "calibration-text-063", "modality": "text", "tokens": 49, "seconds": 20.57905027200468}
+{"event": "calibration_case", "unix_time": 1795307620.5172222, "id": "calibration-text-071", "modality": "text", "tokens": 28, "seconds": 13.689513950026594}
+{"event": "calibration_case", "unix_time": 1795307640.1069863, "id": "calibration-text-043", "modality": "text", "tokens": 40, "seconds": 17.95840316603426}
+{"event": "calibration_case", "unix_time": 1795307660.3202534, "id": "calibration-text-046", "modality": "text", "tokens": 47, "seconds": 20.19159443792887}
+{"event": "calibration_case", "unix_time": 1795307705.698707, "id": "calibration-text-001", "modality": "text", "tokens": 125, "seconds": 45.35571197804529}
+{"event": "calibration_case", "unix_time": 1795307795.5558054, "id": "calibration-text-033", "modality": "text", "tokens": 253, "seconds": 89.83556791802403}
+{"event": "calibration_case", "unix_time": 1795307841.5563574, "id": "calibration-text-040", "modality": "text", "tokens": 127, "seconds": 45.97895909904037}
+{"event": "calibration_case", "unix_time": 1795307859.7460592, "id": "calibration-text-080", "modality": "text", "tokens": 41, "seconds": 18.166971161030233}
+{"event": "calibration_case", "unix_time": 1795307891.8899214, "id": "calibration-text-042", "modality": "text", "tokens": 79, "seconds": 30.500172222033143}
+{"event": "calibration_case", "unix_time": 1795307910.037166, "id": "calibration-text-044", "modality": "text", "tokens": 41, "seconds": 18.124752359930426}
+{"event": "calibration_case", "unix_time": 1795307955.125143, "id": "calibration-text-013", "modality": "text", "tokens": 124, "seconds": 45.06547718192451}
+{"event": "calibration_case", "unix_time": 1795308019.7822123, "id": "calibration-text-004", "modality": "text", "tokens": 181, "seconds": 64.63451056706253}
+{"event": "calibration_case", "unix_time": 1795308056.4340525, "id": "calibration-text-018", "modality": "text", "tokens": 98, "seconds": 36.630219390033744}
+{"event": "calibration_case", "unix_time": 1795308074.6036708, "id": "calibration-text-050", "modality": "text", "tokens": 41, "seconds": 18.147788648027927}
+{"event": "calibration_case", "unix_time": 1795308096.4987328, "id": "calibration-text-070", "modality": "text", "tokens": 47, "seconds": 20.246801111032255}
+{"event": "calibration_case", "unix_time": 1795308111.1049817, "id": "calibration-text-054", "modality": "text", "tokens": 31, "seconds": 14.58448544703424}
+{"event": "calibration_case", "unix_time": 1795308171.293903, "id": "calibration-text-038", "modality": "text", "tokens": 166, "seconds": 60.16652274795342}
+{"event": "calibration_case", "unix_time": 1795308189.58992, "id": "calibration-text-055", "modality": "text", "tokens": 40, "seconds": 18.27351414691657}
+{"event": "calibration_case", "unix_time": 1795308209.9159088, "id": "calibration-text-052", "modality": "text", "tokens": 47, "seconds": 20.30359135591425}
+{"event": "calibration_case", "unix_time": 1795308230.8702595, "id": "calibration-text-057", "modality": "text", "tokens": 49, "seconds": 20.93166017299518}
+{"event": "calibration_case", "unix_time": 1795308253.4686983, "id": "calibration-text-075", "modality": "text", "tokens": 49, "seconds": 20.92463758995291}
+{"event": "calibration_case", "unix_time": 1795308294.4520783, "id": "calibration-text-031", "modality": "text", "tokens": 112, "seconds": 40.9605548880063}
+{"event": "calibration_case", "unix_time": 1795308336.891573, "id": "calibration-text-005", "modality": "text", "tokens": 115, "seconds": 42.41771193000022}
+{"event": "calibration_case", "unix_time": 1795308398.954452, "id": "calibration-text-011", "modality": "text", "tokens": 174, "seconds": 62.040309978998266}
+{"event": "calibration_case", "unix_time": 1795308465.3377535, "id": "calibration-text-009", "modality": "text", "tokens": 187, "seconds": 66.36179419397376}
+{"event": "calibration_case", "unix_time": 1795308479.764062, "id": "calibration-text-090", "modality": "text", "tokens": 31, "seconds": 14.404654534999281}
+{"event": "calibration_case", "unix_time": 1795308493.8695815, "id": "calibration-text-089", "modality": "text", "tokens": 28, "seconds": 12.474150258000009}
+{"event": "calibration_case", "unix_time": 1795308514.1011705, "id": "calibration-text-094", "modality": "text", "tokens": 47, "seconds": 20.209066955954768}
+{"event": "calibration_case", "unix_time": 1795308532.0830061, "id": "calibration-text-079", "modality": "text", "tokens": 40, "seconds": 17.95993134798482}
+{"event": "calibration_case", "unix_time": 1795308552.288464, "id": "calibration-text-064", "modality": "text", "tokens": 47, "seconds": 20.182906025089324}
+{"event": "calibration_case", "unix_time": 1795308566.5924177, "id": "calibration-text-048", "modality": "text", "tokens": 31, "seconds": 14.282354451017454}
+{"event": "calibration_case", "unix_time": 1795308649.375424, "id": "calibration-text-021", "modality": "text", "tokens": 233, "seconds": 82.76040889695287}
+{"event": "calibration_case", "unix_time": 1795308695.7062154, "id": "calibration-text-023", "modality": "text", "tokens": 123, "seconds": 44.652447773027234}
+{"event": "calibration_case", "unix_time": 1795308760.1492019, "id": "calibration-text-036", "modality": "text", "tokens": 181, "seconds": 64.4210621000966}
+{"event": "calibration_case", "unix_time": 1795308778.0889459, "id": "calibration-text-067", "modality": "text", "tokens": 40, "seconds": 17.917814724962227}
+{"event": "calibration_case", "unix_time": 1795308796.2884412, "id": "calibration-text-062", "modality": "text", "tokens": 41, "seconds": 18.177058016997762}
+{"event": "calibration_case", "unix_time": 1795308817.215688, "id": "calibration-text-051", "modality": "text", "tokens": 49, "seconds": 20.9054517429322}
+{"event": "calibration_case", "unix_time": 1795308831.5300832, "id": "calibration-text-078", "modality": "text", "tokens": 31, "seconds": 14.292720165918581}
+{"event": "reference_score", "unix_time": 1795308855.8754191, "id": "development-text-046", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 0.05003547668457031, "nll_per_token": 0.05003547668457031, "seconds": 20.94775557797402}
+{"event": "reference_score", "unix_time": 1795308871.4511268, "id": "development-text-012", "modality": "text", "category": "arithmetic", "answer_tokens": 2, "prompt_tokens": 33, "nll_sum": 4.5221381187438965, "nll_per_token": 2.2610690593719482, "seconds": 15.549298255005851}
+{"event": "reference_score", "unix_time": 1795308948.7156408, "id": "development-chart-5", "modality": "image", "category": "chart", "answer_tokens": 1, "prompt_tokens": 164, "nll_sum": 0.00107574462890625, "nll_per_token": 0.00107574462890625, "seconds": 77.2356211229926}
+{"event": "reference_score", "unix_time": 1795308969.6688368, "id": "development-text-034", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 0.007655143737792969, "nll_per_token": 0.007655143737792969, "seconds": 20.92543362500146}
+{"event": "reference_score", "unix_time": 1795308984.9119852, "id": "development-text-006", "modality": "text", "category": "arithmetic", "answer_tokens": 1, "prompt_tokens": 33, "nll_sum": 0.0814065933227539, "nll_per_token": 0.0814065933227539, "seconds": 15.21538931899704}
+{"event": "reference_score", "unix_time": 1795309077.236163, "id": "development-chart-4", "modality": "image", "category": "chart", "answer_tokens": 3, "prompt_tokens": 189, "nll_sum": 0.01807403564453125, "nll_per_token": 0.006024678548177083, "seconds": 92.29672611702699}
+{"event": "reference_score", "unix_time": 1795309102.0544722, "id": "development-text-032", "modality": "text", "category": "structured", "answer_tokens": 19, "prompt_tokens": 43, "nll_sum": 0.007480621337890625, "nll_per_token": 0.00039371691252055923, "seconds": 24.790939152939245}
+{"event": "reference_score", "unix_time": 1795309123.166749, "id": "development-text-004", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 0.0221099853515625, "nll_per_token": 0.0221099853515625, "seconds": 21.08292778301984}
+{"event": "reference_score", "unix_time": 1795309161.3900306, "id": "development-generated-006", "modality": "image", "category": "spatial", "answer_tokens": 1, "prompt_tokens": 87, "nll_sum": 0.1716899871826172, "nll_per_token": 0.1716899871826172, "seconds": 38.19385819497984}
+{"event": "reference_score", "unix_time": 1795309182.4880447, "id": "development-text-010", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 0.023787498474121094, "nll_per_token": 0.023787498474121094, "seconds": 21.06571858294774}
+{"event": "reference_score", "unix_time": 1795309202.0914643, "id": "development-text-037", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.0465011596679688, "nll_per_token": 1.0155003865559895, "seconds": 19.574302677065134}
+{"event": "reference_score", "unix_time": 1795309279.1974971, "id": "development-chart-0", "modality": "image", "category": "chart", "answer_tokens": 1, "prompt_tokens": 164, "nll_sum": 3.5675315856933594, "nll_per_token": 3.5675315856933594, "seconds": 77.07435205590446}
+{"event": "reference_score", "unix_time": 1795309299.127408, "id": "development-text-013", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.005502700805664, "nll_per_token": 1.001834233601888, "seconds": 19.684028450981714}
+{"event": "reference_score", "unix_time": 1795309324.081294, "id": "development-text-008", "modality": "text", "category": "structured", "answer_tokens": 19, "prompt_tokens": 43, "nll_sum": 0.010097503662109375, "nll_per_token": 0.0005314475611636514, "seconds": 24.926798384054564}
+{"event": "reference_score", "unix_time": 1795309393.0135071, "id": "development-textvqa-003a8ae2ef43b901", "modality": "image", "category": "scene_text", "answer_tokens": 1, "prompt_tokens": 148, "nll_sum": 12.823720932006836, "nll_per_token": 12.823720932006836, "seconds": 68.90422946994659}
+{"event": "reference_score", "unix_time": 1795309414.962774, "id": "development-text-015", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.00156402587890625, "nll_per_token": 0.00156402587890625, "seconds": 21.919697220087983}
+{"event": "reference_score", "unix_time": 1795309430.785577, "id": "development-text-036", "modality": "text", "category": "arithmetic", "answer_tokens": 2, "prompt_tokens": 33, "nll_sum": 7.066194534301758, "nll_per_token": 3.533097267150879, "seconds": 15.790149670094252}
+{"event": "reference_score", "unix_time": 1795309499.816178, "id": "development-textvqa-b9dc400eb20bad64", "modality": "image", "category": "scene_text", "answer_tokens": 1, "prompt_tokens": 148, "nll_sum": 10.898980140686035, "nll_per_token": 10.898980140686035, "seconds": 69.00450688390993}
+{"event": "reference_score", "unix_time": 1795309521.8596249, "id": "development-text-039", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.0011425018310546875, "nll_per_token": 0.0011425018310546875, "seconds": 22.017663291073404}
+{"event": "reference_score", "unix_time": 1795309541.6685808, "id": "development-text-007", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.7935104370117188, "nll_per_token": 1.2645034790039062, "seconds": 19.77922636596486}
+{"event": "reference_score", "unix_time": 1795309617.2725801, "id": "development-textvqa-181f00d3ee2b2076", "modality": "image", "category": "scene_text", "answer_tokens": 3, "prompt_tokens": 158, "nll_sum": 15.805755615234375, "nll_per_token": 5.268585205078125, "seconds": 75.57557716907468}
+{"event": "reference_score", "unix_time": 1795309637.101964, "id": "development-text-001", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.242067337036133, "nll_per_token": 1.0806891123453777, "seconds": 19.80155496392399}
+{"event": "reference_score", "unix_time": 1795309659.2143037, "id": "development-text-009", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.001636505126953125, "nll_per_token": 0.001636505126953125, "seconds": 22.081680820905603}
+{"event": "reference_score", "unix_time": 1795309697.7057102, "id": "development-generated-002", "modality": "image", "category": "spatial", "answer_tokens": 1, "prompt_tokens": 87, "nll_sum": 0.4190483093261719, "nll_per_token": 0.4190483093261719, "seconds": 38.46412963594776}
+{"event": "reference_score", "unix_time": 1795309713.9648285, "id": "development-text-005", "modality": "text", "category": "instruction", "answer_tokens": 4, "prompt_tokens": 30, "nll_sum": 0.00016880035400390625, "nll_per_token": 4.220008850097656e-05, "seconds": 16.2289283729624}
+{"event": "reference_score", "unix_time": 1795309739.2468784, "id": "development-text-044", "modality": "text", "category": "structured", "answer_tokens": 19, "prompt_tokens": 43, "nll_sum": 0.0118408203125, "nll_per_token": 0.0006232010690789474, "seconds": 25.252233869978227}
+{"event": "reference_score", "unix_time": 1795309777.5108182, "id": "development-generated-004", "modality": "image", "category": "spatial", "answer_tokens": 1, "prompt_tokens": 87, "nll_sum": 0.4000816345214844, "nll_per_token": 0.4000816345214844, "seconds": 38.23829793196637}
+{"event": "reference_score", "unix_time": 1795309793.0483928, "id": "development-text-024", "modality": "text", "category": "arithmetic", "answer_tokens": 1, "prompt_tokens": 33, "nll_sum": 0.2004079818725586, "nll_per_token": 0.2004079818725586, "seconds": 15.505112917046063}
+{"event": "reference_score", "unix_time": 1795309808.6331236, "id": "development-text-017", "modality": "text", "category": "instruction", "answer_tokens": 4, "prompt_tokens": 30, "nll_sum": 1.71661376953125e-05, "nll_per_token": 4.291534423828125e-06, "seconds": 15.557563805021346}
+{"event": "reference_score", "unix_time": 1795309847.551746, "id": "development-generated-005", "modality": "image", "category": "ocr_generated", "answer_tokens": 2, "prompt_tokens": 87, "nll_sum": 0.0, "nll_per_token": 0.0, "seconds": 38.88919139304198}
+{"event": "reference_score", "unix_time": 1795309869.6487896, "id": "development-text-033", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.000835418701171875, "nll_per_token": 0.000835418701171875, "seconds": 22.066366599989124}
+{"event": "reference_score", "unix_time": 1795309889.513875, "id": "development-text-025", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.468669891357422, "nll_per_token": 1.1562232971191406, "seconds": 19.836461644037627}
+{"event": "reference_score", "unix_time": 1795309928.3762293, "id": "development-generated-000", "modality": "image", "category": "spatial", "answer_tokens": 1, "prompt_tokens": 87, "nll_sum": 0.15779876708984375, "nll_per_token": 0.15779876708984375, "seconds": 38.83353070693556}
+{"event": "reference_score", "unix_time": 1795309950.3833127, "id": "development-text-021", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.001514434814453125, "nll_per_token": 0.001514434814453125, "seconds": 21.975713453022763}
+{"event": "reference_score", "unix_time": 1795309966.2064497, "id": "development-text-029", "modality": "text", "category": "instruction", "answer_tokens": 4, "prompt_tokens": 30, "nll_sum": 9.72747802734375e-05, "nll_per_token": 2.4318695068359375e-05, "seconds": 15.792192635009997}
+{"event": "reference_score", "unix_time": 1795310013.729763, "id": "development-chart-2", "modality": "image", "category": "chart", "answer_tokens": 1, "prompt_tokens": 105, "nll_sum": 0.030984878540039062, "nll_per_token": 0.030984878540039062, "seconds": 47.42996738606598}
+{"event": "reference_score", "unix_time": 1795310033.437382, "id": "development-text-043", "modality": "text", "category": "extraction", "answer_tokens": 3, "prompt_tokens": 42, "nll_sum": 3.042886734008789, "nll_per_token": 1.0142955780029297, "seconds": 19.676021037972532}
+{"event": "reference_score", "unix_time": 1795310055.521941, "id": "development-text-045", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.0013427734375, "nll_per_token": 0.0013427734375, "seconds": 22.056079861940816}
+{"event": "reference_score", "unix_time": 1795310126.1207955, "id": "development-textvqa-30f9b48158fc56e6", "modality": "image", "category": "scene_text", "answer_tokens": 3, "prompt_tokens": 150, "nll_sum": 33.13981628417969, "nll_per_token": 11.046605428059896, "seconds": 70.57129613193683}
+{"event": "reference_score", "unix_time": 1795310147.5002837, "id": "development-text-028", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 0.06524944305419922, "nll_per_token": 0.06524944305419922, "seconds": 21.349603886017576}
+{"event": "reference_score", "unix_time": 1795310163.4547029, "id": "development-text-018", "modality": "text", "category": "arithmetic", "answer_tokens": 2, "prompt_tokens": 33, "nll_sum": 0.004509925842285156, "nll_per_token": 0.002254962921142578, "seconds": 15.925483828992583}
+{"event": "reference_score", "unix_time": 1795310202.2947547, "id": "development-generated-007", "modality": "image", "category": "ocr_generated", "answer_tokens": 2, "prompt_tokens": 87, "nll_sum": 0.0, "nll_per_token": 0.0, "seconds": 38.79579493496567}
+{"event": "reference_score", "unix_time": 1795310224.0007749, "id": "development-text-003", "modality": "text", "category": "logic", "answer_tokens": 1, "prompt_tokens": 51, "nll_sum": 0.0065784454345703125, "nll_per_token": 0.0065784454345703125, "seconds": 21.672464564908296}
+{"event": "reference_score", "unix_time": 1795310245.3798766, "id": "development-text-016", "modality": "text", "category": "code", "answer_tokens": 1, "prompt_tokens": 49, "nll_sum": 1.553959846496582, "nll_per_token": 1.553959846496582, "seconds": 21.347067130962387}
+{"event": "reference_score", "unix_time": 1795310305.6221, "id": "development-chart-7", "modality": "image", "category": "chart", "answer_tokens": 1, "prompt_tokens": 132, "nll_sum": 0.000186920166015625, "nll_per_token": 0.000186920166015625, "seconds": 60.211587179102935}
+{"event": "reference_phase_finished", "unix_time": 1795310305.6619842, "status": "complete", "cases": 45}

@@ -1,0 +1,35 @@
+{
+  "candidate": "W128-S4",
+  "status": "complete",
+  "cases": [
+    {
+      "id": "development-text-046",
+      "modality": "text",
+      "expected": "392",
+      "output": "<|message_model|><|content_thinking|>The user wants only the integer. Need compute sum of x*2 for x in [46,69,81]. 46*2=92, 69*2=138, 81*2=162. Sum=92+138+162 = 92+138=230, +162=392. Need reply only integer. Ensure no extra text.<|end_message|><|message_model|><|content_text|>392<|end_message|>",
+      "seconds": 90.86620544607285,
+      "generation_tokens": 84,
+      "generation_tps": 1.127460026347822
+    },
+    {
+      "id": "development-text-012",
+      "modality": "text",
+      "expected": "4028",
+      "output": "<|message_model|><|content_thinking|>The user wants compute 56*71 then add 52. Need reply only integer. Let's calculate carefully.\n56*71 = 56*(70+1)=56*70 +56 = 3920+56=3976? 56*70 = 56*7*10 =392*10=3920, +56=3976. Add 52 = 4028. Check: 3976+52=4028. Need final only integer. No extra words.<|end_message|><|message_model|><|content_text|>4028<|end_message|>",
+      "seconds": 114.68458402901888,
+      "generation_tokens": 115,
+      "generation_tps": 1.1146439718300365
+    },
+    {
+      "id": "development-chart-5",
+      "modality": "image",
+      "expected": "1",
+      "output": "<|message_model|><|content_thinking|>The user is asking for the value of Slovenia in the graph. Looking at the image, Slovenia is the top bar with value \"1 GPI\". The label shows \"1 GPI\". So the answer is 1 GPI (or 1). Need short answer.<|end_message|><|message_model|><|content_text|>1 GPI<|end_message|>",
+      "seconds": 118.90876308397856,
+      "generation_tokens": 71,
+      "generation_tps": 1.0909854124486353
+    }
+  ],
+  "max_new_tokens": 192,
+  "scope": "Bounded CPU smoke examples, separate from teacher forced ranking"
+}

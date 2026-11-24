@@ -1,0 +1,7 @@
+Inkling series 2 overnight results
+Leonardo results: /EXPERIMENT_WORKSPACE/outputs/series2-results/series2-20261121-231237/leonardo
+Mac heldout reports: /EXPERIMENT_WORKSPACE/outputs/series2-results/series2-20261121-231237/mac
+Paired comparisons: 2
+W128-E4: 90 paired cases; quality change -2.22 percentage points; quality filter False.
+W128-S4: 90 paired cases; quality change -1.11 percentage points; quality filter False.
+Read memory pressure, swap and context timings before choosing a deployment model.

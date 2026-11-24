@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.sbatch text eol=lf
+*.command text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.out text eol=lf
+*.err text eol=lf
+*.log text eol=lf
+*.csv -text whitespace=cr-at-eol

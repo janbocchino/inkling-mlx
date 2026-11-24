@@ -1,0 +1,10 @@
+Loading bzip2/1.0.8-gp5wcz5
+  ERROR: Module cannot be loaded due to a conflict.
+    HINT: Might try "module unload bzip2" first.
+
+Loading python/3.11.6--gcc--8.5.0
+  ERROR: Requirement bzip2/1.0.8-gp5wcz5 is not loaded
+
+Loading cineca-ai/4.3.0
+  ERROR: Load of requirement bzip2/1.0.8-gp5wcz5 failed
+  ERROR: Load of requirement python/3.11.6--gcc--8.5.0 failed

@@ -1,0 +1,8 @@
+Inkling series 2 completed
+Run: series2-20261121-231237
+Archive: /PROJECT/experiments/series2-20261121-231237
+Elapsed compute hours: 7.99
+Finalists: W128-E4, W128-S4, W128
+Recorded phase failures: 0
+CPU likelihood comparisons use FP32. Mac heldout quality and memory validation remain separate.
+Read RESULTS.json, results.csv and FINALISTS.json for measurements and exact paths.

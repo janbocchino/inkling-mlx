@@ -1,0 +1,1 @@
+{"event": "dataset_frozen", "unix_time": 1795298999.779419, "calibration": {"text": 96, "image": 24}, "development": {"text": 48, "image": 24}, "heldout": {"text": 120, "image": 60}, "hash": "242ef7ed423d0cb3adfec9837d3f121a0ba3c887b47c5e0b0209ad9d8d0bff24"}

@@ -1,0 +1,15 @@
+Inkling overnight series is running
+
+Run: series2-20261121-231237
+Controller job: 65072300
+Matrix GPU job: 65071455
+Started: 22 November 2026 00:16 CET
+Controller deadline: 22 November 2026 11:48 CET
+
+Full source text and real-image pilot passed. Tiny CPU/CUDA forwards agree within about 0.0000012. All 192 BF16/FP32 packing parity fixtures passed with zero difference. Ten local regression tests passed, plus the controller shortlist/cleanup checks.
+
+The controller now calibrates the source, screens 24 recipes, verifies up to six exports and retains up to three finalists. A detached local handoff will download at most two finalists no larger than the existing model and run paired native Mac checks. Its separate Mac inference budget is four hours.
+
+An hourly follow-up is active and stays quiet while work is healthy. The local handoff prevents idle sleep; keep the Mac powered and online, and keep the lid open if it is a laptop.
+
+LOCAL_STATUS.json is updated by the handoff. EXPERIMENT_SUMMARY.txt and MAC_COMPARISON.json will appear when local validation finishes. No result is claimed yet.

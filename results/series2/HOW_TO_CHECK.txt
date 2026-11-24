@@ -1,0 +1,12 @@
+Inkling series 2
+
+The Leonardo job performs calibration, search, conversion and scoring.
+The local handoff waits for it, downloads verified finalists and runs native Mac tests.
+
+Read LOCAL_STATUS.json for local progress.
+Leonardo compact results will appear in leonardo/.
+Mac reports will appear in mac/.
+Read EXPERIMENT_SUMMARY.txt when it exists.
+
+Keep the Mac plugged in, online and with its lid open for local download and inference.
+The local handoff prevents idle sleep while it is running. The Slurm jobs continue independently of this chat.

@@ -1,0 +1,112 @@
+[transformers] You are using a model of type `inkling2_loop` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+{"event": "mac_heldout_case", "unix_time": 1795335771.985714, "candidate": "R64", "id": "heldout-text-093", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335775.940533, "candidate": "R64", "id": "heldout-text-113", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335779.3493319, "candidate": "R64", "id": "heldout-chart-19", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335786.6066382, "candidate": "R64", "id": "heldout-text-025", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335792.017012, "candidate": "R64", "id": "heldout-text-068", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335796.486381, "candidate": "R64", "id": "heldout-chart-17", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335801.6372669, "candidate": "R64", "id": "heldout-text-012", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335804.8602188, "candidate": "R64", "id": "heldout-text-065", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335808.20261, "candidate": "R64", "id": "heldout-generated-018", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335813.9732962, "candidate": "R64", "id": "heldout-text-008", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335819.5433621, "candidate": "R64", "id": "heldout-text-020", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335824.905175, "candidate": "R64", "id": "heldout-chart-8", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335833.6007931, "candidate": "R64", "id": "heldout-text-103", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335841.180397, "candidate": "R64", "id": "heldout-text-074", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335844.7492821, "candidate": "R64", "id": "heldout-generated-011", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335848.1921542, "candidate": "R64", "id": "heldout-text-027", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335851.855438, "candidate": "R64", "id": "heldout-text-101", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335856.989413, "candidate": "R64", "id": "heldout-chart-25", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335860.485097, "candidate": "R64", "id": "heldout-text-111", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335863.433398, "candidate": "R64", "id": "heldout-text-083", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335871.6214368, "candidate": "R64", "id": "heldout-chart-27", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335876.1407518, "candidate": "R64", "id": "heldout-text-016", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335881.2127008, "candidate": "R64", "id": "heldout-text-030", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335888.7857301, "candidate": "R64", "id": "heldout-textvqa-cc9c3bff02242301", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335896.417181, "candidate": "R64", "id": "heldout-text-073", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335902.1893618, "candidate": "R64", "id": "heldout-text-026", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335910.753943, "candidate": "R64", "id": "heldout-chart-26", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335914.504492, "candidate": "R64", "id": "heldout-text-015", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335918.009571, "candidate": "R64", "id": "heldout-text-003", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335924.74305, "candidate": "R64", "id": "heldout-chart-9", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335932.569612, "candidate": "R64", "id": "heldout-text-019", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335936.607219, "candidate": "R64", "id": "heldout-text-010", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335939.901767, "candidate": "R64", "id": "heldout-generated-015", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335943.473045, "candidate": "R64", "id": "heldout-text-024", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335946.703265, "candidate": "R64", "id": "heldout-text-069", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335955.4360452, "candidate": "R64", "id": "heldout-textvqa-01b3265b22d23b50", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335963.559964, "candidate": "R64", "id": "heldout-text-007", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795335967.794199, "candidate": "R64", "id": "heldout-text-087", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335971.9324632, "candidate": "R64", "id": "heldout-generated-019", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335976.723538, "candidate": "R64", "id": "heldout-text-039", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335981.437857, "candidate": "R64", "id": "heldout-text-028", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335986.2033238, "candidate": "R64", "id": "heldout-generated-013", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335991.117481, "candidate": "R64", "id": "heldout-text-096", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795335997.966922, "candidate": "R64", "id": "heldout-text-110", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336007.384641, "candidate": "R64", "id": "heldout-textvqa-45dc5b66e3f3f31b", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336012.6896908, "candidate": "R64", "id": "heldout-text-108", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336016.859832, "candidate": "R64", "id": "heldout-text-066", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336020.8854342, "candidate": "R64", "id": "heldout-textvqa-fb39f5b120097669", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336025.3027022, "candidate": "R64", "id": "heldout-text-078", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336028.8631139, "candidate": "R64", "id": "heldout-text-029", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336031.9904268, "candidate": "R64", "id": "heldout-generated-010", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336037.746882, "candidate": "R64", "id": "heldout-text-116", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336042.184404, "candidate": "R64", "id": "heldout-text-022", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336048.234303, "candidate": "R64", "id": "heldout-chart-23", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336054.278605, "candidate": "R64", "id": "heldout-text-002", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336058.2681222, "candidate": "R64", "id": "heldout-text-088", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336065.3264809, "candidate": "R64", "id": "heldout-textvqa-655dcd26ef3108ff", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336068.381045, "candidate": "R64", "id": "heldout-text-000", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336073.738323, "candidate": "R64", "id": "heldout-text-070", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336078.073024, "candidate": "R64", "id": "heldout-generated-005", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336084.271486, "candidate": "R64", "id": "heldout-text-104", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336092.358752, "candidate": "R64", "id": "heldout-text-049", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336097.705735, "candidate": "R64", "id": "heldout-textvqa-fe32ee8991d2e59f", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336103.743712, "candidate": "R64", "id": "heldout-text-032", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336112.39675, "candidate": "R64", "id": "heldout-text-097", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336115.4575691, "candidate": "R64", "id": "heldout-generated-004", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336124.0852091, "candidate": "R64", "id": "heldout-text-115", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336128.3526762, "candidate": "R64", "id": "heldout-text-053", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336131.504508, "candidate": "R64", "id": "heldout-generated-006", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336135.064885, "candidate": "R64", "id": "heldout-text-117", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336139.038961, "candidate": "R64", "id": "heldout-text-054", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336149.0504692, "candidate": "R64", "id": "heldout-textvqa-012372cab6855b83", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336153.490796, "candidate": "R64", "id": "heldout-text-114", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336163.033547, "candidate": "R64", "id": "heldout-text-001", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336168.08127, "candidate": "R64", "id": "heldout-chart-21", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336175.0583649, "candidate": "R64", "id": "heldout-text-092", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336184.814164, "candidate": "R64", "id": "heldout-text-055", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336192.224461, "candidate": "R64", "id": "heldout-textvqa-e7d656c4407826c5", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336198.4642088, "candidate": "R64", "id": "heldout-text-058", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336202.383779, "candidate": "R64", "id": "heldout-text-048", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336211.145237, "candidate": "R64", "id": "heldout-chart-10", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336215.95332, "candidate": "R64", "id": "heldout-text-057", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336220.43743, "candidate": "R64", "id": "heldout-text-034", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336226.849246, "candidate": "R64", "id": "heldout-textvqa-a3f1fe4ebd510d4e", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336237.272585, "candidate": "R64", "id": "heldout-text-013", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336247.5480351, "candidate": "R64", "id": "heldout-text-109", "score": 0.0}
+{"event": "mac_heldout_case", "unix_time": 1795336254.318923, "candidate": "R64", "id": "heldout-textvqa-71e2433bfd38a9dc", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336258.412291, "candidate": "R64", "id": "heldout-text-089", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336263.095956, "candidate": "R64", "id": "heldout-text-071", "score": 1.0}
+{"event": "mac_heldout_case", "unix_time": 1795336277.773149, "candidate": "R64", "id": "heldout-chart-14", "score": 0.0}
+python(70252) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(70253) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Traceback (most recent call last):
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 111, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 90, in main
+    for response in stream_generate(model,tokenizer,tokens,max_tokens=192,sampler=make_sampler(temp=0),
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            prefill_step_size=64,input_embeddings=embeddings):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 744, in stream_generate
+    for n, (token, logprobs, from_draft) in enumerate(token_generator):
+                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 732, in <genexpr>
+    (token, logprobs, False) for token, logprobs in token_generator
+                                                    ^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 460, in generate_step
+    mx.eval([c.state for c in prompt_cache])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).

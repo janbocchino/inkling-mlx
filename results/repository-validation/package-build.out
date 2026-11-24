@@ -1,0 +1,13 @@
+Processing ./.
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: inkling-mlx-experiments
+  Building wheel for inkling-mlx-experiments (pyproject.toml): started
+  Building wheel for inkling-mlx-experiments (pyproject.toml): finished with status 'done'
+  Created wheel for inkling-mlx-experiments: filename=inkling_mlx_experiments-0.1.0-py3-none-any.whl size=11278 sha256=9aa1213f4d4e2a1dc85c3fe43fcdb191980f746e205f9ea881109f9f3e9cfbed
+  Stored in directory: /LOCAL_USER/Library/Caches/pip/wheels/2f/be/a6/aa1e406148df9d73428a7829f89381a622184cc3c51e6b0a5d
+Successfully built inkling-mlx-experiments

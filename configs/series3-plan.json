@@ -1,0 +1,143 @@
+{
+  "status": "blocked_by_site_maintenance_before_reference_execution",
+  "created_date": "2026-11-23",
+  "timezone": "Europe/Vienna",
+  "round": "Second research round after the overnight search; new series3 run IDs",
+  "primary_question": "When and why does quantization alter reasoning completion, and how do recurrence, calibration and representation contribute?",
+  "remote": {
+    "controller_max_seconds": 43200,
+    "main_gpu_hours_ceiling": 18,
+    "primary_gpu_service_hours_max": 12,
+    "optional_second_gpu_hours_max": 4,
+    "new_artifact_gib_cap": 60,
+    "work_reserve_gib": 60,
+    "new_exports_max": 4,
+    "new_full_checkpoints_retained_max": 2,
+    "deadline_rule": "Minimum of controller start plus 12 hours and verified account/scheduler expiry minus finalization reserve",
+    "account_end_date_last_recorded": "2026-11-24",
+    "access_check": "SSH renewal and current allocation check required before launch",
+    "throughput_gate_required": true,
+    "reduced_scope_allowed_only_if_frozen_from_pilot_before_comparison": true
+  },
+  "mac": {
+    "intensive_cumulative_seconds_max": 3600,
+    "deadline_survives_restarts": true,
+    "automatic_start_when_remote_finishes": false,
+    "includes": [
+      "transfer and verification",
+      "imports",
+      "loading",
+      "compilation",
+      "warmups",
+      "generation",
+      "timeouts",
+      "retries",
+      "cleanup"
+    ],
+    "generation_stop_by_elapsed_seconds": 3420,
+    "cleanup_reserve_seconds": 180,
+    "new_finalists_download_max": 1,
+    "models_concurrent_max": 1,
+    "model_comparisons_target": 2,
+    "paired_cases_target": 24,
+    "after_budget_allowed": [
+      "short SSH/status checks",
+      "small JSON analysis",
+      "report writing"
+    ],
+    "after_budget_prohibited": [
+      "MLX/Metal initialization",
+      "model loading",
+      "conversion",
+      "large model downloads/checksums",
+      "warmups",
+      "benchmark retries"
+    ],
+    "after_budget_target_working_memory_mib_max": 256,
+    "after_budget_target_cpu_cores_max": 1,
+    "optional_secondary_validation": true
+  },
+  "priority_interventions": [
+    "Variable-loop research checkpoint: one versus three passes, each at native/four/two-bit FFN representation",
+    "Separate completed-answer accuracy from reasoning completion and transition-token behavior",
+    "First-pass versus all-pass calibration at matched sampled token-visit count",
+    "Dense-control replication on Qwen3-8B; optional non-looped MoE extension",
+    "One metadata-dtype ablation and optional native MLX portability check"
+  ],
+  "required_controls": [
+    "Variable-loop checkpoint native baseline at each tested depth",
+    "Qwen3-8B own native baseline",
+    "Production Mini archived/source baseline for continuity"
+  ],
+  "gate_three_bit_import": "Exact MLX packing/dequantization parity; old bridge's 32//bits decoder is insufficient",
+  "old_records_and_models": "Immutable; new scorer, data, numerical implementation and caches get new hashes and directories",
+  "not_implemented_yet": [
+    "new remote controller",
+    "metadata intervention export",
+    "new routing diagnostics",
+    "persistent one-hour Mac deadline enforcement",
+    "validated variable-loop source path",
+    "per-pass activation sampling at matched observation count",
+    "stopping-transition probes",
+    "dense control adapters and parity checks"
+  ],
+  "no_new_jobs_submitted": false,
+  "practical_admission": {
+    "independent_failure_suite_required": true,
+    "owner_prompt_required": false,
+    "preferred_weight_gib_max": 8,
+    "target_mlx_peak_gib_max_for_2k_and_image_checks": 10,
+    "targets_are_not_memory_fit_proof": true,
+    "ordinary_apps_remain_open": true,
+    "raise_system_wired_limit_automatically": false,
+    "must_measure_final_answer_completion_correctness_and_end_to_end_latency": true,
+    "must_report_no_satisfactory_16gib_configuration_if_none_pass": true,
+    "applies_to": "Optional deployment conclusion only; not a criterion for scientific success"
+  },
+  "primary_goal": "Scientific explanation and controlled measurement across models; Mac deployment is optional secondary validation",
+  "active_research_document": "docs/RESEARCH_PLAN.md",
+  "secondary_deployment_interventions": [
+    "Identical E4 packed codes with expert affine scales and offsets rounded from FP32 to BF16",
+    "Restore eight-bit embeddings and output head at fixed expert metadata policy",
+    "Compare equally sized looped-layer and tail-layer protection",
+    "Optional tested blockwise Hessian error compensation only if time and resources permit"
+  ],
+  "research_panel": {
+    "core_loop_counts": [
+      1,
+      3
+    ],
+    "optional_loop_counts": [
+      5
+    ],
+    "precision_conditions": [
+      "released native",
+      "affine FFN 4-bit",
+      "affine FFN 2-bit"
+    ],
+    "core_cells": 6,
+    "quantization_scope": "FFN/expert matrices, fixed group size and declared metadata policy",
+    "cross_model_architecture_claims": "Associations only; heterogeneous training/size/source precision prevent architecture-only causal claims",
+    "novelty": "Not established; targeted replication/extension of existing literature",
+    "new_training_in_core": false
+  },
+  "scientific_comparison_started": false,
+  "active_jobs": [],
+  "reference_gate": {
+    "status": "prepared_not_executed",
+    "submitted_job": "65188325",
+    "final_job_state": "CANCELLED",
+    "elapsed": "00:00:00",
+    "gpu_hours": 0,
+    "local_small_tests_passed": 8,
+    "model_parity_verified": false
+  },
+  "site_blocker": {
+    "reservation": "maint_23112026_booster",
+    "start": "2026-11-23T08:00:00+01:00",
+    "end": "2026-11-25T08:00:00+01:00",
+    "allocation_end_date": "2026-11-24",
+    "required_to_resume": "A valid authorized allocation after maintenance ends, or another authorized GPU resource",
+    "ssh_renewal_succeeded": true
+  }
+}

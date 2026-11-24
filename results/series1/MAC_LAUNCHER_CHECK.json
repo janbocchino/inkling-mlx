@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "exit_code": 0,
+  "scope": "Functional launcher check, not a controlled performance benchmark",
+  "image": "vision_test.png",
+  "observed_final_answer": "A red square is on the left and a blue circle is on the right against a white background.",
+  "elapsed_seconds": 107.3,
+  "generation_tokens_per_second": 28.0,
+  "conditions": "Report generation was active concurrently; system memory pressure was elevated",
+  "command": "outputs/run_inkling.command --prompt \"Describe the two shapes, colors, and positions in this image in one sentence.\" --image outputs/vision_test.png --max-tokens 192",
+  "stdout": "Loading Inkling locally. Its weights occupy about 11 GB of memory.\nReady. Nothing you enter is sent to Leonardo or an online service.\nGenerating...\n\nA red square is on the left and a blue circle is on the right against a white background.\n\n107.3s total; 28.0 generated tokens/s, including reasoning.\n"
+}

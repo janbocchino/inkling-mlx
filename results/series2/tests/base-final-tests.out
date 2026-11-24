@@ -1,0 +1,45 @@
+{"event": "loading_source"}
+{"event": "repacked", "index": 1, "total": 74, "path": "lm_head", "bits": 8, "source_mode": "floating", "elapsed_s": 0.0}
+{"event": "repacked", "index": 12, "total": 74, "path": "model.language_model.layers.3.self_attn.sink_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.0}
+{"event": "repacked", "index": 13, "total": 74, "path": "model.language_model.layers.3.self_attn.gate_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.0}
+{"event": "repacked", "index": 14, "total": 74, "path": "model.language_model.layers.3.self_attn.o_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.0}
+{"event": "repacked", "index": 15, "total": 74, "path": "model.language_model.layers.3.self_attn.r_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.0}
+{"event": "repacked", "index": 16, "total": 74, "path": "model.language_model.layers.3.self_attn.v_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 17, "total": 74, "path": "model.language_model.layers.3.self_attn.k_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 18, "total": 74, "path": "model.language_model.layers.3.self_attn.q_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 19, "total": 74, "path": "model.language_model.layers.3.mlp.experts.down_proj", "bits": 2, "source_mode": "mxfp8", "elapsed_s": 0.1}
+{"event": "repacked", "index": 20, "total": 74, "path": "model.language_model.layers.3.mlp.experts.gate_up_proj", "bits": 2, "source_mode": "mxfp8", "elapsed_s": 0.1}
+{"event": "repacked", "index": 21, "total": 74, "path": "model.language_model.layers.2.self_attn.v_sconv.weight_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 22, "total": 74, "path": "model.language_model.layers.2.self_attn.k_sconv.weight_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 23, "total": 74, "path": "model.language_model.layers.2.self_attn.sink_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 24, "total": 74, "path": "model.language_model.layers.2.self_attn.gate_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 25, "total": 74, "path": "model.language_model.layers.2.self_attn.o_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 26, "total": 74, "path": "model.language_model.layers.2.self_attn.r_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 27, "total": 74, "path": "model.language_model.layers.2.self_attn.v_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 28, "total": 74, "path": "model.language_model.layers.2.self_attn.k_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 29, "total": 74, "path": "model.language_model.layers.2.self_attn.q_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 42, "total": 74, "path": "model.language_model.layers.2.mlp.experts.down_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.1}
+{"event": "repacked", "index": 43, "total": 74, "path": "model.language_model.layers.2.mlp.experts.gate_up_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.1}
+{"event": "repacked", "index": 44, "total": 74, "path": "model.language_model.layers.1.self_attn.sink_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 45, "total": 74, "path": "model.language_model.layers.1.self_attn.gate_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 46, "total": 74, "path": "model.language_model.layers.1.self_attn.o_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.1}
+{"event": "repacked", "index": 47, "total": 74, "path": "model.language_model.layers.1.self_attn.r_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 48, "total": 74, "path": "model.language_model.layers.1.self_attn.v_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 49, "total": 74, "path": "model.language_model.layers.1.self_attn.k_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 50, "total": 74, "path": "model.language_model.layers.1.self_attn.q_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 63, "total": 74, "path": "model.language_model.layers.1.mlp.experts.down_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.2}
+{"event": "repacked", "index": 64, "total": 74, "path": "model.language_model.layers.1.mlp.experts.gate_up_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.2}
+{"event": "repacked", "index": 65, "total": 74, "path": "model.language_model.layers.0.self_attn.sink_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 66, "total": 74, "path": "model.language_model.layers.0.self_attn.gate_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 67, "total": 74, "path": "model.language_model.layers.0.self_attn.o_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 68, "total": 74, "path": "model.language_model.layers.0.self_attn.r_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 69, "total": 74, "path": "model.language_model.layers.0.self_attn.v_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 70, "total": 74, "path": "model.language_model.layers.0.self_attn.k_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 71, "total": 74, "path": "model.language_model.layers.0.self_attn.q_proj", "bits": 4, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "repacked", "index": 72, "total": 74, "path": "model.language_model.layers.0.mlp.experts.down_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.2}
+{"event": "repacked", "index": 73, "total": 74, "path": "model.language_model.layers.0.mlp.experts.gate_up_proj", "bits": 2, "source_mode": "nvfp4", "elapsed_s": 0.2}
+{"event": "repacked", "index": 74, "total": 74, "path": "model.language_model.embed_tokens", "bits": 8, "source_mode": "floating", "elapsed_s": 0.2}
+{"event": "hashing_converted_tensors"}
+{"event": "saving"}
+{"event": "strict_reload_and_hash_check"}
+{"event": "complete", "output": "/private/var/folders/vy/5q8hhjmx7rd7mb_pzbmv4bd80000gn/T/tmp6i7z_j1e/output", "weight_gib": 0.0, "elapsed_s": 0.3, "quality_validated": false}

@@ -1,0 +1,360 @@
+{
+  "analysis_date": "2026-11-23",
+  "analysis_is_post_hoc": true,
+  "original_scores_unchanged": true,
+  "mac": {
+    "R64": {
+      "completed_cases": 90,
+      "zero_scored_cases": 20,
+      "missing_final": 18,
+      "missing_final_at_192_tokens": 18,
+      "missing_final_categories": {
+        "extraction": 12,
+        "chart": 3,
+        "scene_text": 3
+      },
+      "zero_scored_completed_answers": [
+        {
+          "id": "heldout-chart-10",
+          "category": "chart",
+          "expected": "green line",
+          "answer": "The teal/green line.",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-textvqa-a3f1fe4ebd510d4e",
+          "category": "scene_text",
+          "expected": "macbook",
+          "answer": "Apple MacBook laptop.",
+          "score": 0.0
+        }
+      ]
+    },
+    "W128-E4": {
+      "completed_cases": 180,
+      "zero_scored_cases": 44,
+      "missing_final": 40,
+      "missing_final_at_192_tokens": 40,
+      "missing_final_categories": {
+        "extraction": 20,
+        "chart": 9,
+        "scene_text": 11
+      },
+      "zero_scored_completed_answers": [
+        {
+          "id": "heldout-textvqa-a3f1fe4ebd510d4e",
+          "category": "scene_text",
+          "expected": "macbook",
+          "answer": "Apple MacBook laptop.",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-text-018",
+          "category": "arithmetic",
+          "expected": "1424",
+          "answer": "1324",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-textvqa-5ce862cbefd8458f",
+          "category": "scene_text",
+          "expected": "yes",
+          "answer": "Yes, it\u2019s a Denny\u2019s sign.",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-chart-15",
+          "category": "chart",
+          "expected": "13",
+          "answer": "13 years (2007\u20132019).",
+          "score": 0.0
+        }
+      ]
+    },
+    "W128-S4": {
+      "completed_cases": 117,
+      "zero_scored_cases": 30,
+      "missing_final": 27,
+      "missing_final_at_192_tokens": 27,
+      "missing_final_categories": {
+        "extraction": 15,
+        "chart": 5,
+        "scene_text": 7
+      },
+      "zero_scored_completed_answers": [
+        {
+          "id": "heldout-chart-10",
+          "category": "chart",
+          "expected": "green line",
+          "answer": "The teal/green line: \u201cChild Labor (Boys, World, 2000-2012) (ILO).\u201d",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-textvqa-a3f1fe4ebd510d4e",
+          "category": "scene_text",
+          "expected": "macbook",
+          "answer": "Apple MacBook laptop.",
+          "score": 0.0
+        },
+        {
+          "id": "heldout-text-040",
+          "category": "code",
+          "expected": "284",
+          "answer": "184",
+          "score": 0.0
+        }
+      ]
+    }
+  },
+  "paired_changes": {
+    "W128-E4": {
+      "matched_cases": 90,
+      "differences": [
+        {
+          "id": "heldout-chart-9",
+          "category": "chart",
+          "baseline_score": 1.0,
+          "candidate_score": 0.0,
+          "baseline_has_final": true,
+          "candidate_has_final": false,
+          "baseline_tokens": 127,
+          "candidate_tokens": 192
+        },
+        {
+          "id": "heldout-textvqa-e7d656c4407826c5",
+          "category": "scene_text",
+          "baseline_score": 1.0,
+          "candidate_score": 0.0,
+          "baseline_has_final": true,
+          "candidate_has_final": false,
+          "baseline_tokens": 118,
+          "candidate_tokens": 192
+        }
+      ]
+    },
+    "W128-S4": {
+      "matched_cases": 90,
+      "differences": [
+        {
+          "id": "heldout-chart-9",
+          "category": "chart",
+          "baseline_score": 1.0,
+          "candidate_score": 0.0,
+          "baseline_has_final": true,
+          "candidate_has_final": false,
+          "baseline_tokens": 127,
+          "candidate_tokens": 192
+        }
+      ]
+    }
+  },
+  "metadata_estimates": {
+    "R64": {
+      "fp32_expert_metadata_tensors": 80,
+      "estimated_savings_bytes_if_bf16": 1274019840,
+      "estimated_savings_gib_if_bf16": 1.1865234375,
+      "estimated_weight_gib_if_bf16": 9.075870325788856,
+      "is_measured_export": false,
+      "caveat": "Metadata rounding changes weights. Estimate omits small header changes; quality, speed and memory fit are untested."
+    },
+    "W128-E4": {
+      "fp32_expert_metadata_tensors": 80,
+      "estimated_savings_bytes_if_bf16": 637009920,
+      "estimated_savings_gib_if_bf16": 0.59326171875,
+      "estimated_weight_gib_if_bf16": 7.8868450010195374,
+      "is_measured_export": false,
+      "caveat": "Metadata rounding changes weights. Estimate omits small header changes; quality, speed and memory fit are untested."
+    },
+    "W128-S4": {
+      "fp32_expert_metadata_tensors": 80,
+      "estimated_savings_bytes_if_bf16": 637009920,
+      "estimated_savings_gib_if_bf16": 0.59326171875,
+      "estimated_weight_gib_if_bf16": 8.7928049499169,
+      "is_measured_export": false,
+      "caveat": "Metadata rounding changes weights. Estimate omits small header changes; quality, speed and memory fit are untested."
+    }
+  },
+  "development": {
+    "R64": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 2.993417162923088,
+      "category_mean_nll_without_extraction": 2.8051109879415015,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1450145812261672
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9196438789367676
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.497238794962565
+        }
+      }
+    },
+    "C128": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 3.083818823970549,
+      "category_mean_nll_without_extraction": 2.888918747368999,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1626421156383695
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 1.0205810864766438
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.015008290608724
+        }
+      }
+    },
+    "W128-E4": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 2.9021235364222386,
+      "category_mean_nll_without_extraction": 2.7272526442501124,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1162705739339194
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9550252066718208
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.0837427775065103
+        }
+      }
+    },
+    "R128": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 4.041412520548056,
+      "category_mean_nll_without_extraction": 3.7967448118369713,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.4585500535510836
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 1.312258497873942
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.3362993876139324
+        }
+      }
+    },
+    "W128-A8": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 3.1092611719990333,
+      "category_mean_nll_without_extraction": 2.8824019089699413,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.0964661461966378
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.974269856346978
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 1.8296438852945964
+        }
+      }
+    },
+    "W128-S4": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 1.920149020005388,
+      "category_mean_nll_without_extraction": 1.773130415011103,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 0.7462388719831194
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.5363252215915256
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 2.005720774332682
+        }
+      }
+    },
+    "W128": {
+      "cases": 30,
+      "answer_tokens": 105,
+      "structured_cases": 3,
+      "structured_token_share": 0.5428571428571428,
+      "case_mean_nll": 2.9485641635649387,
+      "category_mean_nll_without_extraction": 2.7673122526531952,
+      "metrics": {
+        "all": {
+          "cases": 30,
+          "answer_tokens": 105,
+          "nll_per_token": 1.1036493937174479
+        },
+        "text": {
+          "cases": 20,
+          "answer_tokens": 90,
+          "nll_per_token": 0.9812234454684787
+        },
+        "image": {
+          "cases": 10,
+          "answer_tokens": 15,
+          "nll_per_token": 1.838205083211263
+        }
+      }
+    }
+  },
+  "interpretation_limits": [
+    "No extra generation was performed; longer output caps have not been tested.",
+    "Conditional accuracy on completed answers is selection-biased and is not a replacement benchmark.",
+    "Some completed responses contain the expected answer plus words; manual examples do not rescore the frozen reports.",
+    "Routing/loop sensitivity is a hypothesis; no per-pass divergence traces exist in this run."
+  ]
+}

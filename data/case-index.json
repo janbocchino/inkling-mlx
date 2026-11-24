@@ -1,0 +1,2720 @@
+{
+  "calibration": [
+    {
+      "id": "calibration-text-093",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-025",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-textvqa-0122c5279a501df2",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-0122c5279a501df2.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "0122c5279a501df2"
+    },
+    {
+      "id": "calibration-text-068",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-012",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-textvqa-00c359f294f7dcd9",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-00c359f294f7dcd9.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "00c359f294f7dcd9"
+    },
+    {
+      "id": "calibration-text-065",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-008",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-generated-014",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-014.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-020",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-074",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-textvqa-0054c91397f2fe05",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-0054c91397f2fe05.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "0054c91397f2fe05"
+    },
+    {
+      "id": "calibration-text-027",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-083",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-generated-000",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-000.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-016",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-030",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-generated-001",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-001.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-073",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-026",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-generated-005",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-005.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-015",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-003",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-generated-010",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-010.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-019",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-010",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-generated-012",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-012.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-024",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-069",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-generated-013",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-013.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-007",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-039",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-generated-008",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-008.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-028",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-076",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-textvqa-00685bc495504d61",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-00685bc495504d61.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "00685bc495504d61"
+    },
+    {
+      "id": "calibration-text-081",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-066",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-generated-006",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-006.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-029",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-095",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-generated-015",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-015.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-022",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-002",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-textvqa-0202faf23a9aae11",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-0202faf23a9aae11.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "0202faf23a9aae11"
+    },
+    {
+      "id": "calibration-text-000",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-084",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-generated-007",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-007.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-049",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-085",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-textvqa-006d10667d17b924",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-006d10667d17b924.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "006d10667d17b924"
+    },
+    {
+      "id": "calibration-text-047",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-092",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-generated-003",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-003.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-006",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-056",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-generated-002",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-002.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-082",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-041",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-generated-004",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/calibration-generated-004.npy",
+      "origin": "generated",
+      "template_group": "calibration-spatial"
+    },
+    {
+      "id": "calibration-text-045",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-060",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-generated-009",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-009.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-087",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-032",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-textvqa-005635e119b9f32f",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-005635e119b9f32f.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "005635e119b9f32f"
+    },
+    {
+      "id": "calibration-text-091",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-014",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-textvqa-015c537f722d115e",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/calibration-textvqa-015c537f722d115e.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "015c537f722d115e"
+    },
+    {
+      "id": "calibration-text-053",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-072",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-generated-011",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/calibration-generated-011.npy",
+      "origin": "generated",
+      "template_group": "calibration-ocr_generated"
+    },
+    {
+      "id": "calibration-text-088",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-061",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-077",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-086",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-058",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-034",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-017",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-035",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-037",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-059",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-063",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-071",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-043",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-046",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-001",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-033",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-040",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-080",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-042",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-044",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-013",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-004",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-018",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-050",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-070",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-054",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-038",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-055",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-052",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-057",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-075",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-031",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-005",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-011",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-009",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-090",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-089",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-094",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-079",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-064",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "calibration-text-048",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-021",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-023",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "instruction"
+    },
+    {
+      "id": "calibration-text-036",
+      "category": "prose",
+      "modality": "text",
+      "origin": "Salesforce/wikitext training passage",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "calibration-text-067",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "calibration-text-062",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "calibration-text-051",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "calibration-text-078",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    }
+  ],
+  "development": [
+    {
+      "id": "development-text-046",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-012",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-chart-5",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-5.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "fcfd9ea7425420f909e7c084c556d21115f037999840d5a025bdd56d511ddcec"
+    },
+    {
+      "id": "development-text-034",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-006",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-chart-4",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-4.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "e9b779617fb56858f6820d0166cf7b8828ac864ebd81c25fa312316bd5596ffe"
+    },
+    {
+      "id": "development-text-032",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-text-004",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-generated-006",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/development-generated-006.npy",
+      "origin": "generated",
+      "template_group": "development-spatial"
+    },
+    {
+      "id": "development-text-010",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-037",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-chart-0",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-0.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "b3e669137984fe0dbcec29355262e1c39286466f771d4689cf42c73126507950"
+    },
+    {
+      "id": "development-text-013",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-text-008",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-textvqa-003a8ae2ef43b901",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-003a8ae2ef43b901.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "003a8ae2ef43b901"
+    },
+    {
+      "id": "development-text-015",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-036",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-textvqa-b9dc400eb20bad64",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-b9dc400eb20bad64.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "b9dc400eb20bad64"
+    },
+    {
+      "id": "development-text-039",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-007",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-textvqa-181f00d3ee2b2076",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-181f00d3ee2b2076.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "181f00d3ee2b2076"
+    },
+    {
+      "id": "development-text-001",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-text-009",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-generated-002",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/development-generated-002.npy",
+      "origin": "generated",
+      "template_group": "development-spatial"
+    },
+    {
+      "id": "development-text-005",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-text-044",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-generated-004",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/development-generated-004.npy",
+      "origin": "generated",
+      "template_group": "development-spatial"
+    },
+    {
+      "id": "development-text-024",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-text-017",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-generated-005",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/development-generated-005.npy",
+      "origin": "generated",
+      "template_group": "development-ocr_generated"
+    },
+    {
+      "id": "development-text-033",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-025",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-generated-000",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/development-generated-000.npy",
+      "origin": "generated",
+      "template_group": "development-spatial"
+    },
+    {
+      "id": "development-text-021",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-029",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-chart-2",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-2.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "daa5534cc75395f66e645278eeb2bdd1765aac6e22f7a48653b6cfc287e895dd"
+    },
+    {
+      "id": "development-text-043",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-text-045",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-textvqa-30f9b48158fc56e6",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-30f9b48158fc56e6.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "30f9b48158fc56e6"
+    },
+    {
+      "id": "development-text-028",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-018",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-generated-007",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/development-generated-007.npy",
+      "origin": "generated",
+      "template_group": "development-ocr_generated"
+    },
+    {
+      "id": "development-text-003",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-016",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-chart-7",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-7.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "1f778768659c05084bcfcb3ec7ea587cdfd7e15ff1f8e36439a3343469244372"
+    },
+    {
+      "id": "development-text-022",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-031",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-textvqa-4ffbb21f379cccbe",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-4ffbb21f379cccbe.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "4ffbb21f379cccbe"
+    },
+    {
+      "id": "development-text-000",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-text-035",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-chart-3",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-3.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "2c62ffa7dbb59bfc14a07abe045eb3bbaa99bffb50a323c15194b03169b0115a"
+    },
+    {
+      "id": "development-text-038",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-text-041",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-textvqa-831bcec304a17054",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-831bcec304a17054.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "831bcec304a17054"
+    },
+    {
+      "id": "development-text-040",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "development-text-014",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-textvqa-2b538a43dd933fc1",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-2b538a43dd933fc1.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "2b538a43dd933fc1"
+    },
+    {
+      "id": "development-text-019",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "development-text-030",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-textvqa-94ad4aad01e27a32",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/development-textvqa-94ad4aad01e27a32.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "94ad4aad01e27a32"
+    },
+    {
+      "id": "development-text-042",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "development-text-020",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-generated-001",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/development-generated-001.npy",
+      "origin": "generated",
+      "template_group": "development-ocr_generated"
+    },
+    {
+      "id": "development-text-027",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "development-text-011",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-chart-1",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-1.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "f753bab919ed5cf525d79bad95a4d64372418a07072297ff3f731c5c81bb8e06"
+    },
+    {
+      "id": "development-text-023",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-text-002",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-chart-6",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/development-chart-6.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "15408e7bd7e229e5d2db7f420b088bdc2e0ecea8b3bc41752e8eb64477316328"
+    },
+    {
+      "id": "development-text-026",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "development-text-047",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "development-generated-003",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/development-generated-003.npy",
+      "origin": "generated",
+      "template_group": "development-ocr_generated"
+    }
+  ],
+  "heldout": [
+    {
+      "id": "heldout-text-093",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-113",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-19",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-19.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "c0bd7a174a5bc1baca72c7dc7de9407a00d4244ed45bd0192d7d75503231771d"
+    },
+    {
+      "id": "heldout-text-025",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-068",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-chart-17",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-17.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "1ece7393dfc313f61797abad269a451461d37f89776e3ea2557012e4a9987fc2"
+    },
+    {
+      "id": "heldout-text-012",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-065",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-generated-018",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-018.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-008",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-020",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-chart-8",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-8.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "ee7ae75f50103a77d0b3677c22729efae9d627a7b17585894fd0f56e99bbf8cf"
+    },
+    {
+      "id": "heldout-text-103",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-074",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-generated-011",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-011.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-027",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-101",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-25",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-25.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "0c78804a1a9ddd5e63005acfb551cabfc148725b3c4f010ad2cd9de27dfbab33"
+    },
+    {
+      "id": "heldout-text-111",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-083",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-27",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-27.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "541d3984c9112800aad3fca8427e8e38b6a198092a6fff72685d44ad4413b094"
+    },
+    {
+      "id": "heldout-text-016",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-030",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-cc9c3bff02242301",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-cc9c3bff02242301.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "cc9c3bff02242301"
+    },
+    {
+      "id": "heldout-text-073",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-026",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-chart-26",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-26.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "0e8a37ff625eee26047076517367d57117aa0d4ce677b050bd5e6ba33af62248"
+    },
+    {
+      "id": "heldout-text-015",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-003",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-chart-9",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-9.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "3f582812a2c67f7a66ad0f6f3669bc46a7135434cbcf580664a9cd374fb64af0"
+    },
+    {
+      "id": "heldout-text-019",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-010",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-015",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-015.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-024",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-069",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-textvqa-01b3265b22d23b50",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-01b3265b22d23b50.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "01b3265b22d23b50"
+    },
+    {
+      "id": "heldout-text-007",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-087",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-generated-019",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-019.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-039",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-028",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-013",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-013.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-096",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-110",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-textvqa-45dc5b66e3f3f31b",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-45dc5b66e3f3f31b.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "45dc5b66e3f3f31b"
+    },
+    {
+      "id": "heldout-text-108",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-066",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-fb39f5b120097669",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-fb39f5b120097669.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "fb39f5b120097669"
+    },
+    {
+      "id": "heldout-text-078",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-029",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-generated-010",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-010.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-116",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-022",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-chart-23",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-23.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "728d69ba57422170c5b511b45a0cd1e222aaf9547d7d55232864578dfbf67df9"
+    },
+    {
+      "id": "heldout-text-002",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-088",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-textvqa-655dcd26ef3108ff",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-655dcd26ef3108ff.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "655dcd26ef3108ff"
+    },
+    {
+      "id": "heldout-text-000",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-070",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-005",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-005.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-104",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-049",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-textvqa-fe32ee8991d2e59f",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-fe32ee8991d2e59f.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "fe32ee8991d2e59f"
+    },
+    {
+      "id": "heldout-text-032",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-097",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-generated-004",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-004.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-115",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-053",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-generated-006",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-006.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-117",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-054",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-012372cab6855b83",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-012372cab6855b83.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "012372cab6855b83"
+    },
+    {
+      "id": "heldout-text-114",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-001",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-chart-21",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-21.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "a0b4f2c65b74db789bbdb4c9b8057751a2755c4cee9eafdee2a8da491f576cd3"
+    },
+    {
+      "id": "heldout-text-092",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-055",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-textvqa-e7d656c4407826c5",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-e7d656c4407826c5.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "e7d656c4407826c5"
+    },
+    {
+      "id": "heldout-text-058",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-048",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-chart-10",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-10.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "9683c7fe1ffada5ca4a8c519dc8164e0ed7cf69ebcdaec8ccdff9eab06e3fd80"
+    },
+    {
+      "id": "heldout-text-057",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-034",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-textvqa-a3f1fe4ebd510d4e",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-a3f1fe4ebd510d4e.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "a3f1fe4ebd510d4e"
+    },
+    {
+      "id": "heldout-text-013",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-109",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-textvqa-71e2433bfd38a9dc",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-71e2433bfd38a9dc.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "71e2433bfd38a9dc"
+    },
+    {
+      "id": "heldout-text-089",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-071",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-14",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-14.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "1da11eee99dde36455fb7a3217a079ed15e333b45728e21718aca5dec07396df"
+    },
+    {
+      "id": "heldout-text-017",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-062",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-generated-012",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-012.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-080",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-060",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-7de24c1c61b63f52",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-7de24c1c61b63f52.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "7de24c1c61b63f52"
+    },
+    {
+      "id": "heldout-text-040",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-059",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-textvqa-97b1112b17015396",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-97b1112b17015396.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "97b1112b17015396"
+    },
+    {
+      "id": "heldout-text-006",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-067",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-chart-16",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-16.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "5f167aab6d4b05609820f47ad2e705e8f962043e41ee8d8d20e7f8538bd0d3fd"
+    },
+    {
+      "id": "heldout-text-118",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-036",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-7b0112f7f5f096c5",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-7b0112f7f5f096c5.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "7b0112f7f5f096c5"
+    },
+    {
+      "id": "heldout-text-091",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-004",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-textvqa-c8616652f54577f4",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-c8616652f54577f4.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "c8616652f54577f4"
+    },
+    {
+      "id": "heldout-text-076",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-063",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-generated-008",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-008.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-043",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-086",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-generated-003",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-003.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-100",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-009",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-textvqa-270ee71a340f50e8",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-270ee71a340f50e8.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "270ee71a340f50e8"
+    },
+    {
+      "id": "heldout-text-014",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-061",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-textvqa-4dc59c7e57fa8968",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-4dc59c7e57fa8968.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "4dc59c7e57fa8968"
+    },
+    {
+      "id": "heldout-text-119",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-011",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-18",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-18.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "fc372cae864ac8fc2a03e15e6b8d707640600b3fec8c497b690d4fbdf10126c3"
+    },
+    {
+      "id": "heldout-text-033",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-072",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-chart-11",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-11.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "1eb228063631199e7d69a3a19423267dda2a94a0d84636e0d9c6c10d59f1fcff"
+    },
+    {
+      "id": "heldout-text-090",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-085",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-generated-017",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-017.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-005",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-099",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-generated-007",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-007.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-112",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-075",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-generated-014",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-014.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-044",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-079",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-chart-13",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-13.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "6f0316354d7c031efb2470b2e8b6d585a99fa71e2941f6a3aea18ded2033542f"
+    },
+    {
+      "id": "heldout-text-095",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-102",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-textvqa-40c6b4dd3caa006f",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-40c6b4dd3caa006f.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "40c6b4dd3caa006f"
+    },
+    {
+      "id": "heldout-text-037",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-text-021",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-chart-22",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-22.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "30bf3d08cf75e923cd94e6bacd9433e9fe737b18ae1874c1fbdb0fa0ebdf049a"
+    },
+    {
+      "id": "heldout-text-105",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-064",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-textvqa-fa9ffd5aca1e4e51",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-fa9ffd5aca1e4e51.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "fa9ffd5aca1e4e51"
+    },
+    {
+      "id": "heldout-text-081",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-text-106",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-000",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-000.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-056",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-035",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-chart-12",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-12.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "a1a2e4c9a030c92661b418d12d17503c85156979c6b41532c8ec8d5e2480b69d"
+    },
+    {
+      "id": "heldout-text-082",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-text-052",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-002",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-002.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-018",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-042",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-generated-001",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-001.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-050",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-094",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-textvqa-6f8cc53eafad6f86",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-6f8cc53eafad6f86.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "6f8cc53eafad6f86"
+    },
+    {
+      "id": "heldout-text-084",
+      "category": "arithmetic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "arithmetic"
+    },
+    {
+      "id": "heldout-text-046",
+      "category": "code",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "code"
+    },
+    {
+      "id": "heldout-generated-009",
+      "category": "ocr_generated",
+      "modality": "image",
+      "image": "images/heldout-generated-009.npy",
+      "origin": "generated",
+      "template_group": "heldout-ocr_generated"
+    },
+    {
+      "id": "heldout-text-107",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-023",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-generated-016",
+      "category": "spatial",
+      "modality": "image",
+      "image": "images/heldout-generated-016.npy",
+      "origin": "generated",
+      "template_group": "heldout-spatial"
+    },
+    {
+      "id": "heldout-text-047",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-077",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-textvqa-5ce862cbefd8458f",
+      "category": "scene_text",
+      "modality": "image",
+      "image": "images/heldout-textvqa-5ce862cbefd8458f.npy",
+      "origin": "lmms-lab/textvqa",
+      "source_image_id": "5ce862cbefd8458f"
+    },
+    {
+      "id": "heldout-text-098",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-031",
+      "category": "extraction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "extraction"
+    },
+    {
+      "id": "heldout-chart-15",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-15.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "a0983971db2f9409100170f25f637852af1be88d8db60ab9fc5ce8a94291f272"
+    },
+    {
+      "id": "heldout-text-041",
+      "category": "instruction",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "instruction"
+    },
+    {
+      "id": "heldout-text-051",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-chart-24",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-24.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "b372ea540608f488ecaaaea2493b99f4a74da4773433873db0ed4f8b75446777"
+    },
+    {
+      "id": "heldout-text-038",
+      "category": "structured",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "structured"
+    },
+    {
+      "id": "heldout-text-045",
+      "category": "logic",
+      "modality": "text",
+      "origin": "authored",
+      "template_group": "logic"
+    },
+    {
+      "id": "heldout-chart-20",
+      "category": "chart",
+      "modality": "image",
+      "image": "images/heldout-chart-20.npy",
+      "origin": "lmms-lab/ChartQA",
+      "source_image_sha256": "4083350b8672345c87afbe7de31f37090486fca0d2571b7fb6713af3d3ad22b9"
+    }
+  ]
+}

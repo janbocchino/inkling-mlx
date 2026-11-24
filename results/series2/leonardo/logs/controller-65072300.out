@@ -1,0 +1,43 @@
+{"event": "phase_started", "unix_time": 1795303025.4221447, "phase": "source_reference_and_calibration", "budget_seconds": 9000}
+{"event": "phase_finished", "unix_time": 1795310311.3619692, "phase": "source_reference_and_calibration", "ok": true, "seconds": 7285.939821958542}
+{"event": "phase_started", "unix_time": 1795310311.4653578, "phase": "baseline_timing", "budget_seconds": 900}
+{"event": "phase_finished", "unix_time": 1795310557.1078088, "phase": "baseline_timing", "ok": true, "seconds": 245.64244675636292}
+{"event": "phase_started", "unix_time": 1795312375.5943828, "phase": "expert_clipping_search", "budget_seconds": 10800}
+{"event": "phase_finished", "unix_time": 1795320110.633921, "phase": "expert_clipping_search", "ok": true, "seconds": 7735.039535045624}
+{"event": "phase_started", "unix_time": 1795320111.6662674, "phase": "recipe_screening", "budget_seconds": 300}
+{"event": "phase_finished", "unix_time": 1795320206.8457615, "phase": "recipe_screening", "ok": true, "seconds": 95.17948937416077}
+{"event": "phase_started", "unix_time": 1795320206.8591805, "phase": "baseline_evaluation", "budget_seconds": 3367}
+{"event": "phase_finished", "unix_time": 1795321184.576627, "phase": "baseline_evaluation", "ok": true, "seconds": 977.7174434661865}
+{"event": "phase_started", "unix_time": 1795321188.333365, "phase": "export-R128", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795321629.3510087, "phase": "export-R128", "ok": true, "seconds": 441.0176396369934}
+{"event": "phase_started", "unix_time": 1795321629.3596861, "phase": "evaluate-R128", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795322591.9049194, "phase": "evaluate-R128", "ok": true, "seconds": 962.5452280044556}
+{"event": "phase_started", "unix_time": 1795322595.856245, "phase": "export-C128", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795323207.4961321, "phase": "export-C128", "ok": true, "seconds": 611.639883518219}
+{"event": "phase_started", "unix_time": 1795323207.507057, "phase": "evaluate-C128", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795324170.3469045, "phase": "evaluate-C128", "ok": true, "seconds": 962.83984375}
+{"event": "phase_started", "unix_time": 1795324174.2749574, "phase": "export-W128", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795324700.7519152, "phase": "export-W128", "ok": true, "seconds": 526.4769546985626}
+{"event": "phase_started", "unix_time": 1795324700.7651732, "phase": "evaluate-W128", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795325662.9002175, "phase": "evaluate-W128", "ok": true, "seconds": 962.1350412368774}
+{"event": "phase_started", "unix_time": 1795325667.0129702, "phase": "export-W128-E4", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795326244.1568284, "phase": "export-W128-E4", "ok": true, "seconds": 577.1438550949097}
+{"event": "phase_started", "unix_time": 1795326244.1704779, "phase": "evaluate-W128-E4", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795327196.7859888, "phase": "evaluate-W128-E4", "ok": true, "seconds": 952.6155080795288}
+{"event": "discarded_export_after_scoring", "unix_time": 1795327197.5131195, "candidate": "R128"}
+{"event": "phase_started", "unix_time": 1795327201.611971, "phase": "export-W128-A8", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795327767.8998249, "phase": "export-W128-A8", "ok": true, "seconds": 566.2878520488739}
+{"event": "phase_started", "unix_time": 1795327767.9092355, "phase": "evaluate-W128-A8", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795328724.9960368, "phase": "evaluate-W128-A8", "ok": true, "seconds": 957.0867981910706}
+{"event": "discarded_export_after_scoring", "unix_time": 1795328725.1321094, "candidate": "C128"}
+{"event": "phase_started", "unix_time": 1795328729.0027068, "phase": "export-W128-S4", "budget_seconds": 2700}
+{"event": "phase_finished", "unix_time": 1795329322.9888551, "phase": "export-W128-S4", "ok": true, "seconds": 593.9861450195312}
+{"event": "phase_started", "unix_time": 1795329323.0032055, "phase": "evaluate-W128-S4", "budget_seconds": 3580}
+{"event": "phase_finished", "unix_time": 1795330275.2938178, "phase": "evaluate-W128-S4", "ok": true, "seconds": 952.2906079292297}
+{"event": "discarded_export_after_scoring", "unix_time": 1795330276.0102513, "candidate": "W128-A8"}
+{"event": "phase_started", "unix_time": 1795330277.9378629, "phase": "smoke-W128-E4", "budget_seconds": 1800}
+{"event": "phase_finished", "unix_time": 1795330683.7966542, "phase": "smoke-W128-E4", "ok": true, "seconds": 405.8587877750397}
+{"event": "phase_started", "unix_time": 1795330683.8129354, "phase": "smoke-W128-S4", "budget_seconds": 1800}
+{"event": "phase_finished", "unix_time": 1795331124.8026402, "phase": "smoke-W128-S4", "ok": true, "seconds": 440.9897005558014}
+{"event": "phase_started", "unix_time": 1795331124.81143, "phase": "smoke-W128", "budget_seconds": 1800}
+{"event": "phase_finished", "unix_time": 1795331545.635795, "phase": "smoke-W128", "ok": true, "seconds": 420.8243613243103}

@@ -1,0 +1,373 @@
+[transformers] You are using a model of type `inkling2_loop` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+python(72506) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72507) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337535.525394, "candidate": "W128-S4", "id": "heldout-text-093", "score": 1.0}
+python(72513) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72514) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337540.684785, "candidate": "W128-S4", "id": "heldout-text-113", "score": 1.0}
+python(72519) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72520) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337545.378957, "candidate": "W128-S4", "id": "heldout-chart-19", "score": 1.0}
+python(72527) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72528) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337556.746075, "candidate": "W128-S4", "id": "heldout-text-025", "score": 0.0}
+python(72545) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72546) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337563.439884, "candidate": "W128-S4", "id": "heldout-text-068", "score": 1.0}
+python(72563) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72564) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337571.9087539, "candidate": "W128-S4", "id": "heldout-chart-17", "score": 1.0}
+python(72603) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72607) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337579.3690429, "candidate": "W128-S4", "id": "heldout-text-012", "score": 1.0}
+python(72635) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72636) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337586.063358, "candidate": "W128-S4", "id": "heldout-text-065", "score": 1.0}
+python(72641) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72642) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337591.344973, "candidate": "W128-S4", "id": "heldout-generated-018", "score": 1.0}
+python(72658) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72659) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337601.8482392, "candidate": "W128-S4", "id": "heldout-text-008", "score": 1.0}
+python(72674) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72675) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337611.037048, "candidate": "W128-S4", "id": "heldout-text-020", "score": 1.0}
+python(72693) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72694) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337618.214239, "candidate": "W128-S4", "id": "heldout-chart-8", "score": 1.0}
+python(72707) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72708) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337629.084353, "candidate": "W128-S4", "id": "heldout-text-103", "score": 0.0}
+python(72715) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72716) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337637.681344, "candidate": "W128-S4", "id": "heldout-text-074", "score": 1.0}
+python(72745) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72746) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337643.918117, "candidate": "W128-S4", "id": "heldout-generated-011", "score": 1.0}
+python(72761) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72762) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337648.733006, "candidate": "W128-S4", "id": "heldout-text-027", "score": 1.0}
+python(72771) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72772) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337654.4861262, "candidate": "W128-S4", "id": "heldout-text-101", "score": 1.0}
+python(72777) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72778) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337660.72286, "candidate": "W128-S4", "id": "heldout-chart-25", "score": 1.0}
+python(72781) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72782) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337665.2624488, "candidate": "W128-S4", "id": "heldout-text-111", "score": 1.0}
+python(72785) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72786) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337668.949327, "candidate": "W128-S4", "id": "heldout-text-083", "score": 1.0}
+python(72802) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72803) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337680.770497, "candidate": "W128-S4", "id": "heldout-chart-27", "score": 0.0}
+python(72811) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72812) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337686.172307, "candidate": "W128-S4", "id": "heldout-text-016", "score": 1.0}
+python(72819) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72820) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337692.8407092, "candidate": "W128-S4", "id": "heldout-text-030", "score": 1.0}
+python(72836) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72837) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337705.495351, "candidate": "W128-S4", "id": "heldout-textvqa-cc9c3bff02242301", "score": 1.0}
+python(72865) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72866) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337717.2469811, "candidate": "W128-S4", "id": "heldout-text-073", "score": 0.0}
+python(72920) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72921) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337726.605946, "candidate": "W128-S4", "id": "heldout-text-026", "score": 1.0}
+python(72956) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72957) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337740.578401, "candidate": "W128-S4", "id": "heldout-chart-26", "score": 0.0}
+python(72970) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72971) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337745.271172, "candidate": "W128-S4", "id": "heldout-text-015", "score": 1.0}
+python(72976) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(72977) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337750.348931, "candidate": "W128-S4", "id": "heldout-text-003", "score": 1.0}
+python(73001) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73002) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337764.398012, "candidate": "W128-S4", "id": "heldout-chart-9", "score": 0.0}
+python(73020) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73021) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337776.27976, "candidate": "W128-S4", "id": "heldout-text-019", "score": 0.0}
+python(73027) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73028) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337782.227627, "candidate": "W128-S4", "id": "heldout-text-010", "score": 1.0}
+python(73046) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73047) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337788.403637, "candidate": "W128-S4", "id": "heldout-generated-015", "score": 1.0}
+python(73071) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73072) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337795.373755, "candidate": "W128-S4", "id": "heldout-text-024", "score": 1.0}
+python(73084) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73085) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337800.619238, "candidate": "W128-S4", "id": "heldout-text-069", "score": 1.0}
+python(73105) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73106) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337812.761728, "candidate": "W128-S4", "id": "heldout-textvqa-01b3265b22d23b50", "score": 0.0}
+python(73115) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73116) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337824.285443, "candidate": "W128-S4", "id": "heldout-text-007", "score": 0.0}
+python(73119) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73120) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337828.7400188, "candidate": "W128-S4", "id": "heldout-text-087", "score": 1.0}
+python(73131) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73132) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337834.088407, "candidate": "W128-S4", "id": "heldout-generated-019", "score": 1.0}
+python(73135) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73136) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337838.734038, "candidate": "W128-S4", "id": "heldout-text-039", "score": 1.0}
+python(73144) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73145) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337845.925175, "candidate": "W128-S4", "id": "heldout-text-028", "score": 1.0}
+python(73150) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73151) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337851.3363578, "candidate": "W128-S4", "id": "heldout-generated-013", "score": 1.0}
+python(73168) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73169) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337858.446192, "candidate": "W128-S4", "id": "heldout-text-096", "score": 1.0}
+python(73174) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73175) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337864.8212512, "candidate": "W128-S4", "id": "heldout-text-110", "score": 1.0}
+python(73189) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73190) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337876.897344, "candidate": "W128-S4", "id": "heldout-textvqa-45dc5b66e3f3f31b", "score": 0.0}
+python(73197) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73198) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337883.878762, "candidate": "W128-S4", "id": "heldout-text-108", "score": 1.0}
+python(73211) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73212) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337890.454496, "candidate": "W128-S4", "id": "heldout-text-066", "score": 1.0}
+python(73218) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73219) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337896.0949728, "candidate": "W128-S4", "id": "heldout-textvqa-fb39f5b120097669", "score": 1.0}
+python(73230) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73231) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337904.144107, "candidate": "W128-S4", "id": "heldout-text-078", "score": 1.0}
+python(73236) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73237) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337909.616682, "candidate": "W128-S4", "id": "heldout-text-029", "score": 1.0}
+python(73248) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73249) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337914.2611551, "candidate": "W128-S4", "id": "heldout-generated-010", "score": 1.0}
+python(73266) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73267) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337921.2891939, "candidate": "W128-S4", "id": "heldout-text-116", "score": 1.0}
+python(73274) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73275) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337926.506651, "candidate": "W128-S4", "id": "heldout-text-022", "score": 1.0}
+python(73282) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73283) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337934.90339, "candidate": "W128-S4", "id": "heldout-chart-23", "score": 1.0}
+python(73313) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73314) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337943.808655, "candidate": "W128-S4", "id": "heldout-text-002", "score": 1.0}
+python(73320) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73321) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337950.01902, "candidate": "W128-S4", "id": "heldout-text-088", "score": 1.0}
+python(73342) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73343) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337963.055676, "candidate": "W128-S4", "id": "heldout-textvqa-655dcd26ef3108ff", "score": 1.0}
+python(73353) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73354) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337967.185707, "candidate": "W128-S4", "id": "heldout-text-000", "score": 1.0}
+python(73369) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73370) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337975.804672, "candidate": "W128-S4", "id": "heldout-text-070", "score": 1.0}
+python(73384) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73385) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337981.664055, "candidate": "W128-S4", "id": "heldout-generated-005", "score": 1.0}
+python(73393) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73394) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795337991.768235, "candidate": "W128-S4", "id": "heldout-text-104", "score": 1.0}
+python(73404) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73405) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338003.358281, "candidate": "W128-S4", "id": "heldout-text-049", "score": 0.0}
+python(73421) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73422) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338010.3891451, "candidate": "W128-S4", "id": "heldout-textvqa-fe32ee8991d2e59f", "score": 1.0}
+python(73459) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73460) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338018.1358058, "candidate": "W128-S4", "id": "heldout-text-032", "score": 1.0}
+python(73484) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73485) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338030.4214232, "candidate": "W128-S4", "id": "heldout-text-097", "score": 0.0}
+python(73493) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73494) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338035.266745, "candidate": "W128-S4", "id": "heldout-generated-004", "score": 1.0}
+python(73518) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73519) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338046.604168, "candidate": "W128-S4", "id": "heldout-text-115", "score": 0.0}
+python(73527) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73528) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338051.205688, "candidate": "W128-S4", "id": "heldout-text-053", "score": 1.0}
+python(73534) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73535) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338055.645851, "candidate": "W128-S4", "id": "heldout-generated-006", "score": 1.0}
+python(73540) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73541) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338062.410249, "candidate": "W128-S4", "id": "heldout-text-117", "score": 1.0}
+python(73550) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73551) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338067.678009, "candidate": "W128-S4", "id": "heldout-text-054", "score": 1.0}
+python(73566) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73567) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338080.307449, "candidate": "W128-S4", "id": "heldout-textvqa-012372cab6855b83", "score": 0.0}
+python(73572) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73573) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338085.8559418, "candidate": "W128-S4", "id": "heldout-text-114", "score": 1.0}
+python(73609) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73610) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338098.556229, "candidate": "W128-S4", "id": "heldout-text-001", "score": 0.0}
+python(73637) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73639) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338103.760802, "candidate": "W128-S4", "id": "heldout-chart-21", "score": 1.0}
+python(73661) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73662) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338113.828989, "candidate": "W128-S4", "id": "heldout-text-092", "score": 1.0}
+python(73671) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73672) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338125.2199712, "candidate": "W128-S4", "id": "heldout-text-055", "score": 0.0}
+python(73679) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73680) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338135.328396, "candidate": "W128-S4", "id": "heldout-textvqa-e7d656c4407826c5", "score": 1.0}
+python(73685) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73686) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338141.506773, "candidate": "W128-S4", "id": "heldout-text-058", "score": 1.0}
+python(73691) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73692) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338145.8191721, "candidate": "W128-S4", "id": "heldout-text-048", "score": 1.0}
+python(73701) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73702) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338157.8738382, "candidate": "W128-S4", "id": "heldout-chart-10", "score": 0.0}
+python(73717) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73718) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338164.085184, "candidate": "W128-S4", "id": "heldout-text-057", "score": 1.0}
+python(73724) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73725) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338169.411137, "candidate": "W128-S4", "id": "heldout-text-034", "score": 1.0}
+python(73734) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73735) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338176.199192, "candidate": "W128-S4", "id": "heldout-textvqa-a3f1fe4ebd510d4e", "score": 0.0}
+python(73755) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73756) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338188.547938, "candidate": "W128-S4", "id": "heldout-text-013", "score": 0.0}
+python(73773) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73774) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338199.758816, "candidate": "W128-S4", "id": "heldout-text-109", "score": 0.0}
+python(73781) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73782) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338205.842449, "candidate": "W128-S4", "id": "heldout-textvqa-71e2433bfd38a9dc", "score": 1.0}
+python(73793) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73794) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338210.8674119, "candidate": "W128-S4", "id": "heldout-text-089", "score": 1.0}
+python(73814) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73815) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338215.229573, "candidate": "W128-S4", "id": "heldout-text-071", "score": 1.0}
+python(73828) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73829) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338227.651378, "candidate": "W128-S4", "id": "heldout-chart-14", "score": 0.0}
+python(73847) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73848) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338232.243058, "candidate": "W128-S4", "id": "heldout-text-017", "score": 1.0}
+python(73864) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73865) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338239.5080802, "candidate": "W128-S4", "id": "heldout-text-062", "score": 1.0}
+python(73907) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73908) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338246.317494, "candidate": "W128-S4", "id": "heldout-generated-012", "score": 1.0}
+python(73924) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73925) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338255.472975, "candidate": "W128-S4", "id": "heldout-text-080", "score": 1.0}
+python(73933) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73934) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338260.259891, "candidate": "W128-S4", "id": "heldout-text-060", "score": 1.0}
+python(73987) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73988) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338274.1077151, "candidate": "W128-S4", "id": "heldout-textvqa-7de24c1c61b63f52", "score": 0.0}
+python(73994) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(73995) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338280.2490299, "candidate": "W128-S4", "id": "heldout-text-040", "score": 0.0}
+python(74005) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74006) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338285.775381, "candidate": "W128-S4", "id": "heldout-text-059", "score": 1.0}
+python(74021) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74022) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338298.3702242, "candidate": "W128-S4", "id": "heldout-textvqa-97b1112b17015396", "score": 0.0}
+python(74030) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74031) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338303.34319, "candidate": "W128-S4", "id": "heldout-text-006", "score": 1.0}
+python(74052) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74053) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338314.902752, "candidate": "W128-S4", "id": "heldout-text-067", "score": 0.0}
+python(74081) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74082) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338329.1770382, "candidate": "W128-S4", "id": "heldout-chart-16", "score": 0.0}
+python(74087) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74089) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338335.178187, "candidate": "W128-S4", "id": "heldout-text-118", "score": 1.0}
+python(74098) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74099) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338341.901366, "candidate": "W128-S4", "id": "heldout-text-036", "score": 1.0}
+python(74108) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74109) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338354.241241, "candidate": "W128-S4", "id": "heldout-textvqa-7b0112f7f5f096c5", "score": 0.0}
+python(74118) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74120) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338365.6633248, "candidate": "W128-S4", "id": "heldout-text-091", "score": 0.0}
+python(74129) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74130) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338371.213929, "candidate": "W128-S4", "id": "heldout-text-004", "score": 1.0}
+python(74143) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74144) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338379.574969, "candidate": "W128-S4", "id": "heldout-textvqa-c8616652f54577f4", "score": 1.0}
+python(74162) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74163) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338385.316642, "candidate": "W128-S4", "id": "heldout-text-076", "score": 1.0}
+python(74197) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74198) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338393.109649, "candidate": "W128-S4", "id": "heldout-text-063", "score": 1.0}
+python(74201) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74202) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338396.509444, "candidate": "W128-S4", "id": "heldout-generated-008", "score": 1.0}
+python(74230) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74231) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338407.503106, "candidate": "W128-S4", "id": "heldout-text-043", "score": 0.0}
+python(74236) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74237) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338413.9109068, "candidate": "W128-S4", "id": "heldout-text-086", "score": 1.0}
+python(74242) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74243) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338419.3996758, "candidate": "W128-S4", "id": "heldout-generated-003", "score": 1.0}
+python(74263) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74264) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338427.6205282, "candidate": "W128-S4", "id": "heldout-text-100", "score": 1.0}
+python(74293) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74294) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338436.3807821, "candidate": "W128-S4", "id": "heldout-text-009", "score": 1.0}
+python(74322) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74324) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+{"event": "mac_heldout_case", "unix_time": 1795338463.702784, "candidate": "W128-S4", "id": "heldout-textvqa-270ee71a340f50e8", "score": 0.0}
+python(74458) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(74459) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Traceback (most recent call last):
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 111, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/EXPERIMENT_WORKSPACE/outputs/series2-kit/mac_evaluate.py", line 90, in main
+    for response in stream_generate(model,tokenizer,tokens,max_tokens=192,sampler=make_sampler(temp=0),
+                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            prefill_step_size=64,input_embeddings=embeddings):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 744, in stream_generate
+    for n, (token, logprobs, from_draft) in enumerate(token_generator):
+                                            ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 732, in <genexpr>
+    (token, logprobs, False) for token, logprobs in token_generator
+                                                    ^^^^^^^^^^^^^^^
+  File "/EXPERIMENT_WORKSPACE/work/validation-env/lib/python3.13/site-packages/mlx_lm/generate.py", line 460, in generate_step
+    mx.eval([c.state for c in prompt_cache])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [METAL] Command buffer execution failed: Caused GPU Timeout Error (00000002:kIOGPUCommandBufferCallbackErrorTimeout).
